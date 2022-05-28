@@ -5,7 +5,11 @@ try:
                              password='TraHEY2356!',
                              db='transacciones')
 except (pymysql.err.OperationalError, pymysql.err.InternalError) as e:
-	print("Ocurrió un error al conectar: ", e)        
+	print("Ocurrió un error al conectar: ", e)       
+
+
+#llegué yooooo hptaaa
+ 
 def CrearCajero(estado,modeloCajero,transacciones,zona,id_equipo):
 	with conexion.cursor() as cursor:
 		consulta = "INSERT INTO cajeros(estado, modeloCajero, transacciones, zona, id_equipo) VALUES (%s, %s, %s, %s, %s);"
