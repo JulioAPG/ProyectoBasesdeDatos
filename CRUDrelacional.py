@@ -87,3 +87,8 @@ elif opcion==5:
 	   
 
 
+#Habia una vez un pinguino chiquito,m era tan chiquito que no le decían pinguino emperador, sino pinguino plebeyo
+#Un día un motherfoca le robó su pescadito
+#El pinguinito se sintió triste, pero partió en búsqueda de su pescadito
+#Cuando llegó dónde motherfoca, ya estaba haciendo la digestión 
+#Entonces, LE ABRIÓ EL ESTÓMAGO CON UN cuchillito
