@@ -1,3 +1,4 @@
+from hmac import trans_36
 import pymysql
 import json
 
@@ -26,25 +27,19 @@ except (pymysql.err.OperationalError, pymysql.err.InternalError) as e:
     print(e, bcolors.RESET)
     exit()
 
-
-# funcion para convertir el json en un diccionario
-def jsonDiccionario():
-    with conexion.cursor() as cursord:
-        cursord.execute("SELECT transacciones FROM cajeros;")
-        cajeros = cursord.fetchall()
-        str_cajeros = json.dumps(cajeros)
-        objeto_cajeros = json.loads(str_cajeros)
-        n=0
-        for cajero in objeto_cajeros:
-            n=n+1
-            print(f'Cajero {n}:\n',cajero)
-
-
-def CrearCajero(estado, modeloCajero, transacciones, zona, id_equipo):
+n=0
+def ConvertirLista(cadena):
+    llaves="[]"
+    for x in range(len(llaves)):
+        cadena = cadena.replace(llaves[x],"")
+    cadena=cadena.replace("},","}+")
+    lista=list(cadena.split("+"))
+    return lista
+def CrearCajero(estado, modeloCajero, zona, id_equipo):
     with conexion.cursor() as cursor:
-        consulta = "INSERT INTO cajeros(estado, modeloCajero, transacciones, zona, id_equipo) VALUES (%s, %s, %s, %s, %s);"
+        consulta = "INSERT INTO cajeros(estado, modeloCajero, zona, id_equipo) VALUES (%s, %s, %s, %s);"
         cursor.execute(consulta, (estado, modeloCajero,
-                       transacciones, zona, id_equipo))
+                        zona, id_equipo))
     conexion.commit()
 
 
@@ -76,15 +71,44 @@ def LeerTransacciones(id_cajero):
         consulta = ("SELECT transacciones FROM cajeros WHERE id_equipo=%s;")
         cursorr.execute(consulta, (id_cajero))
         cajeros = cursorr.fetchall()
-        for cajero in cajeros:
-            print(cajero)
-
-
-opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Ver todas las transacciones de un cajero \n 6: Cajeros diccionario \n \n Su opción: "))
+        str_cajeros = json.dumps(cajeros)
+        objeto_cajeros = json.loads(str_cajeros)
+        cajero=objeto_cajeros[0]
+        transacciones=cajero[0]
+        listaT=ConvertirLista(transacciones)
+        return listaT
+def EliminarTransaccion(listaTransacciones,numeroTransaccion,id_cajero):
+    listaTransacciones.pop(numeroTransaccion-1)
+    listaTransacciones=str(listaTransacciones)
+    listaTransacciones=listaTransacciones.replace("'","")
+    with conexion.cursor() as cursor:
+        consulta = "UPDATE cajeros SET transacciones=%s WHERE id_equipo=%s;"
+        cursor.execute(consulta, (listaTransacciones,id_cajero))
+    conexion.commit() 
+def CrearTransaccion(listaT,id_cajero,monto,tipocuenta,tipomovimiento,fechamovimiento):
+    NuevaTransaccion='{"monto": %s, "tipoCuenta": "%s","tipoMovimiento": "%s","fechamovimiento": "%s"}' % (monto,tipocuenta,tipomovimiento,fechamovimiento)    
+    listaT.append(NuevaTransaccion)
+    listaT=str(listaT)
+    listaT=listaT.replace("'","")
+    with conexion.cursor() as cursorm:
+        consulta = "UPDATE cajeros SET transacciones=%s WHERE id_equipo=%s"
+        cursorm.execute(consulta, (listaT, id_cajero))
+    conexion.commit() 
+def ActualizarTransaccion(listaT,id_cajero,monto,tipocuenta,tipomovimiento,fechamovimiento,numeroT):
+    NuevaTransaccion='{"monto": %s, "tipoCuenta": "%s","tipoMovimiento": "%s","fechamovimiento": "%s"}' % (monto,tipocuenta,tipomovimiento,fechamovimiento)    
+    listaT.pop(numeroT-1)
+    listaT.insert(numeroT-1,NuevaTransaccion)
+    listaT=str(listaT)
+    listaT=listaT.replace("'","")
+    with conexion.cursor() as cursorm:
+        consulta = "UPDATE cajeros SET transacciones=%s WHERE id_equipo=%s"
+        cursorm.execute(consulta, (listaT, id_cajero))
+    conexion.commit()       
+opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Ver todas las transacciones de un cajero \n \n Su opción: "))
 if opcion == 1:
     print("\n----------------------------------------------------------------\n Creación de cajero: \n")
     CrearCajero("Disponible", 2015,
-                '[{"monto": 10000,"tipoCuenta":"cuentaVirtual","tipoMovimiento":"retiro","fechaMovimiento":"17-06-2022"}]', 8, "GJHGDJH")
+                 8, "GJHGDJH")
     print("\n----------------------------------------------------------------\n")
 elif opcion == 2:
     print("\n----------------------------------------------------------------\n Cajeros actuales: \n")
@@ -106,9 +130,45 @@ elif opcion == 4:
 elif opcion == 5:
     print("\n----------------------------------------------------------------\n Transacciones cajero: \n")
     id_cajero = input("Digite el id del cajero a consultar: ")
-    LeerTransacciones(id_cajero)
+    listaT=LeerTransacciones(id_cajero)
+    for transaccion in listaT:
+        n=n+1
+        transaccionJSON=json.loads(transaccion)
+        print(f'Transacción {n}',str(transaccionJSON))
     print("\n----------------------------------------------------------------\n")
-elif opcion == 6:
-    print("\n----------------------------------------------------------------\n Diccionario json: \n")
-    jsonDiccionario()
-    print("\n----------------------------------------------------------------\n")
+    n=0
+    opcionT = int(input("¿Que acción desea realizar?:\n 1: Crear transacción \n 2: Actualizar transacción \n 3: Eliminar transacción \n Su opción: "))
+    if opcionT==1:
+        monto=input("Digite el monto de la nueva transacción: ")
+        tipoCuenta=input("Digite el tipo de cuenta: ")
+        tipoMovimiento=input("Digite el tipo de movimiento: ")
+        fechaMovimiento=input("Digite la fecha del nuevo movimiento en formato D-M-A: ")
+        CrearTransaccion(listaT,id_cajero,monto,tipoCuenta,tipoMovimiento,fechaMovimiento)
+        listaT=LeerTransacciones(id_cajero)
+        for transaccion in listaT:
+            n=n+1
+            transaccionJSON=json.loads(transaccion)
+            print(f'Transacción {n}',str(transaccionJSON))
+
+    if opcionT==2:
+        NumeroTransaccion=int(input("Digite el número de la transacción a actualizar:"))
+        monto=input("Digite el monto: ")
+        tipoCuenta=input("Digite el tipo de cuenta: ")
+        tipoMovimiento=input("Digite el tipo de movimiento: ")
+        fechaMovimiento=input("Digite la fecha en formato D-M-A: ")
+        ActualizarTransaccion(listaT,id_cajero,monto,tipoCuenta,tipoMovimiento,fechaMovimiento,NumeroTransaccion)
+        listaT=LeerTransacciones(id_cajero)
+        for transaccion in listaT:
+            n=n+1
+            transaccionJSON=json.loads(transaccion)
+            print(f'Transacción {n}',str(transaccionJSON))
+    if opcionT==3:
+        NumeroTransaccion=int(input("Digite el número de la transacción a eliminar:\n "))
+        EliminarTransaccion(listaT,NumeroTransaccion,id_cajero)
+        listaT=LeerTransacciones(id_cajero)
+        for transaccion in listaT:
+            n=n+1
+            transaccionJSON=json.loads(transaccion)
+            print(f'Transacción {n}',str(transaccionJSON))
+
+
