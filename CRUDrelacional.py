@@ -1,4 +1,5 @@
 import pymysql
+import json
 
 print("----------------------------------------------------------------")
 print("\nBienvenido al crud del sistema de cajeros \nPrimero necesitamos unos datos: \n")
@@ -25,6 +26,18 @@ except (pymysql.err.OperationalError, pymysql.err.InternalError) as e:
     print(e, bcolors.RESET)
     exit()
 
+
+# funcion para convertir el json en un diccionario
+def jsonDiccionario():
+    with conexion.cursor() as cursord:
+        cursord.execute("SELECT transacciones FROM cajeros;")
+        cajeros = cursord.fetchall()
+        str_cajeros = json.dumps(cajeros)
+        objeto_cajeros = json.loads(str_cajeros)
+        n=0
+        for cajero in objeto_cajeros:
+            n=n+1
+            print(f'Cajero {n}:\n',cajero)
 
 
 def CrearCajero(estado, modeloCajero, transacciones, zona, id_equipo):
@@ -67,24 +80,35 @@ def LeerTransacciones(id_cajero):
             print(cajero)
 
 
-opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2:Visualizar los cajeros \n 3:Eliminar un cajero \n 4: Modificar un cajero \n 5: ver todas las transacciones de un cajero \n Su opción: "))
+opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Ver todas las transacciones de un cajero \n 6: Cajeros diccionario \n \n Su opción: "))
 if opcion == 1:
+    print("\n----------------------------------------------------------------\n Creación de cajero: \n")
     CrearCajero("Disponible", 2015,
                 '[{"monto": 10000,"tipoCuenta":"cuentaVirtual","tipoMovimiento":"retiro","fechaMovimiento":"17-06-2022"}]', 8, "GJHGDJH")
+    print("\n----------------------------------------------------------------\n")
 elif opcion == 2:
+    print("\n----------------------------------------------------------------\n Cajeros actuales: \n")
     LeerCajero()
+    print("\n----------------------------------------------------------------\n")
 elif opcion == 3:
+    print("\n----------------------------------------------------------------\n Eliminación de cajero: \n")
     id_cajero = input("Digite el id del cajero a eliminar: ")
     EliminarCajero(id_cajero)
+    print("\n----------------------------------------------------------------\n")
 elif opcion == 4:
+    print("\n----------------------------------------------------------------\n Modificación del cajero: \n")
     id_cajero = input("Digite el id del cajero a modificar: ")
     estado = input("Digite el nuevo estado: ")
     modelo = input("Digite el nuevo modelo: ")
     zona = input("Digite la nueva zona: ")
     ModificarCajero(estado, modelo, zona, id_cajero)
+    print("\n----------------------------------------------------------------\n")
 elif opcion == 5:
+    print("\n----------------------------------------------------------------\n Transacciones cajero: \n")
     id_cajero = input("Digite el id del cajero a consultar: ")
     LeerTransacciones(id_cajero)
-
-
-
+    print("\n----------------------------------------------------------------\n")
+elif opcion == 6:
+    print("\n----------------------------------------------------------------\n Diccionario json: \n")
+    jsonDiccionario()
+    print("\n----------------------------------------------------------------\n")
