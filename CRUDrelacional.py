@@ -1,6 +1,4 @@
 #Si no cuenta con alguna de estas ñibrerías por favor instalar:
-
-from hmac import trans_36
 import pymysql
 import json
 import stdiomask
@@ -131,7 +129,7 @@ def RevisarID(id_cajero):
             id_cajero=cajero[0]
             return id_cajero
 
-opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Ver todas las transacciones de un cajero \n 6: Salir \n Su opción: "))
+opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Operaciones con las transacciones de un cajero \n 6: Salir \n Su opción: "))
 if opcion == 1:
     print("\n----------------------------------------------------------------\n Creación de cajero: \n")
     CrearCajero("Disponible", 2015,
