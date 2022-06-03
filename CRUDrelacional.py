@@ -23,6 +23,7 @@ class bcolors:
     WARNING = '\033[93m'  # YELLOW
     FAIL = '\033[91m'  # RED
     RESET = '\033[0m'  # RESET COLOR
+    BLUE = '\033[94m'  # BLUE
 
 
 try:
@@ -49,6 +50,7 @@ def ConvertirLista(cadena):
 
 
 def CrearCajero(estado, modeloCajero, zona, id_equipo):
+    #Registrar cajero
     with conexion.cursor() as cursor:
         consulta = "INSERT INTO cajeros(estado, modeloCajero, zona, id_equipo) VALUES (%s, %s, %s, %s);"
         cursor.execute(consulta, (estado, modeloCajero,
@@ -57,6 +59,7 @@ def CrearCajero(estado, modeloCajero, zona, id_equipo):
 
 
 def LeerCajero():
+    #Listar cajeros
     with conexion.cursor() as cursorr:
         cursorr.execute(
             "SELECT estado, modeloCajero, zona, id_equipo FROM cajeros;")
@@ -66,6 +69,7 @@ def LeerCajero():
 
 
 def EliminarCajero(id_cajero):
+    #eliminar cajero
     with conexion.cursor() as cursore:
         consulta = "DELETE FROM cajeros WHERE id_equipo=%s;"
         cursore.execute(consulta, (id_cajero))
@@ -73,6 +77,7 @@ def EliminarCajero(id_cajero):
 
 
 def ModificarCajero(estado, modelo, zona, id_cajero):
+    #Modificar cajero
     with conexion.cursor() as cursorm:
         consulta = "UPDATE cajeros SET estado=%s, modeloCajero=%s, zona=%s WHERE id_equipo=%s"
         cursorm.execute(consulta, (estado, modelo, zona, id_cajero))
@@ -80,6 +85,7 @@ def ModificarCajero(estado, modelo, zona, id_cajero):
 
 
 def LeerTransacciones(id_cajero):
+    #Listar transacciones de un cajero
     with conexion.cursor() as cursorr:
         consulta = ("SELECT transacciones FROM cajeros WHERE id_equipo=%s;")
         cursorr.execute(consulta, (id_cajero))
@@ -93,6 +99,7 @@ def LeerTransacciones(id_cajero):
 
 
 def EliminarTransaccion(listaTransacciones, numeroTransaccion, id_cajero):
+    #Eliminar transacciones de un cajero
     listaTransacciones.pop(numeroTransaccion-1)
     listaTransacciones = str(listaTransacciones)
     listaTransacciones = listaTransacciones.replace("'", "")
@@ -103,6 +110,7 @@ def EliminarTransaccion(listaTransacciones, numeroTransaccion, id_cajero):
 
 
 def CrearTransaccion(listaT, id_cajero, monto, tipocuenta, tipomovimiento, fechamovimiento):
+    #Registrar transacciones de un cajero
     NuevaTransaccion = '{"monto": %s, "tipoCuenta": "%s","tipoMovimiento": "%s","fechamovimiento": "%s"}' % (
         monto, tipocuenta, tipomovimiento, fechamovimiento)
     listaT.append(NuevaTransaccion)
@@ -115,6 +123,7 @@ def CrearTransaccion(listaT, id_cajero, monto, tipocuenta, tipomovimiento, fecha
 
 
 def ActualizarTransaccion(listaT, id_cajero, monto, tipocuenta, tipomovimiento, fechamovimiento, numeroT):
+    #Modificar transacciones de un cajero
     NuevaTransaccion = '{"monto": %s, "tipoCuenta": "%s","tipoMovimiento": "%s","fechamovimiento": "%s"}' % (
         monto, tipocuenta, tipomovimiento, fechamovimiento)
     listaT.pop(numeroT-1)
@@ -143,8 +152,9 @@ def RevisarID(id_cajero):
 
 
 def ConsignacionesCajerosFallando():
+    # El número de consignaciones en los cajeros que están fallando (Fuera de Servicio y Cerrados).
+    # Recaudo total de las consignaciones realizadas en los cajeros que están fallando.
     with conexion.cursor() as cursor:
-        # El número de consignaciones en los cajeros que están fallando (Fuera de Servicio y Cerrados).
         consulta = "SELECT id_equipo FROM cajeros WHERE estado='Fuera de Servicio' OR estado='Cerrado';"
         cursor.execute(consulta)
         cajeros = cursor.fetchall()
@@ -156,18 +166,23 @@ def ConsignacionesCajerosFallando():
             print(bcolors.OK+f"\nCajero: {id_cajero}"+bcolors.RESET)
             n = 0
             x = 0
+            montoTotal = 0
             for transaccion in listaT:
                 n = n+1
                 transaccionJSON = json.loads(transaccion)
                 if transaccionJSON["tipoMovimiento"] == "consignacion":
                     x = x+1
+                    monto = int(transaccionJSON["monto"])
+                    montoTotal = montoTotal + monto
                     print("Transaccion", n, ":", "Valor:", transaccionJSON["monto"], " - ", "Tipo de cuenta:", transaccionJSON["tipoCuenta"], " - ",
                           "Tipo de movimento:", transaccionJSON["tipoMovimiento"], " - ", "Fecha de la transaciión:", transaccionJSON["fechaMovimiento"])
-            print("Numero de consignaciones:", x)
+            print(bcolors.BLUE+f"Numero de consignaciones: {x}")
+            print(f"Recaudo total de consignaciones: {montoTotal}"+ bcolors.RESET)
+
 
 
 def main():
-    opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Editar las transacciones de un cajero \n 6: Ver las transacciones de un cajero \n 7: El número de consignaciones en los cajeros que están fallando \n 8: Salir \n Su opción: "))
+    opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Editar las transacciones de un cajero \n 6: Ver las transacciones de un cajero \n 7: El número y recaudo total de consignaciones en los cajeros que están fallando \n 8: Salir \n Su opción: "))
     if opcion == 1:
         print("\n----------------------------------------------------------------\n Creación de cajero: \n")
         id_equipo = input("ID del cajero: ")
