@@ -1,4 +1,4 @@
-#Si no cuenta con alguna de estas ñibrerías por favor instalar:
+#Si no cuenta con alguna de estas librerías por favor instalar:
 import pymysql
 import json
 import stdiomask
@@ -129,97 +129,189 @@ def RevisarID(id_cajero):
             id_cajero=cajero[0]
             return id_cajero
 
-opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Operaciones con las transacciones de un cajero \n 6: Salir \n Su opción: "))
-if opcion == 1:
-    print("\n----------------------------------------------------------------\n Creación de cajero: \n")
-    CrearCajero("Disponible", 2015,
-                 8, "GJHGDJH")
-    print(bcolors.OK+'Cajero creado con éxito'+bcolors.RESET)
-    print("\n----------------------------------------------------------------\n")
-elif opcion == 2:
-    print("\n----------------------------------------------------------------\n Cajeros actuales: \n")
-    LeerCajero()
-    print("\n----------------------------------------------------------------\n")
-elif opcion == 3:
-    print("\n----------------------------------------------------------------\n Eliminación de cajero: \n")
-    id_cajero = input("Digite el id del cajero a eliminar: ")
-    RevisarID(id_cajero)
-    if RevisarID(id_cajero)==False:
-        print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
-    else:
-        EliminarCajero(id_cajero)
-        print(f'El cajero con id {id_cajero} ha sido eliminado exitosamente')
+def main():  
+    opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Editar las transacciones de un cajero \n 6: Ver las transacciones de un cajero \n 7: Salir \n Su opción: "))
+    if opcion == 1:
+        print("\n----------------------------------------------------------------\n Creación de cajero: \n")
+        id_equipo = input("ID del cajero: ")
+        RevisarID(id_equipo)
+        if RevisarID(id_equipo)==False:
+            estado = int(input("Estado del cajero: \n 1: Operando \n 2: Fuera de servicio \n 3: Cerrado \n Opcion: "))
+            if estado == 1:
+                estado = "Operando"
+            elif estado == 2:
+                estado = "Fuera de servicio"
+            elif estado == 3:
+                estado = "Cerrado"
+            else:
+                print("\n Opcion no valida")
+                exit()
+            modeloCajero = input("Modelo del cajero: \n Año de fabricación: ")
+            zona = int(input("Zona del cajero: \n Por favor ingrese un número entre 1 y 10: "))
+            CrearCajero(estado, modeloCajero, zona, id_equipo)
+            print(bcolors.OK+'\n Cajero creado con éxito \n'+bcolors.RESET)
+            main()
+        else:
+            print(bcolors.FAIL+"\n El cajero ya existe"+bcolors.RESET)
+            main()
         print("\n----------------------------------------------------------------\n")
-elif opcion == 4:
-    print("\n----------------------------------------------------------------\n Modificación del cajero: \n")
-    id_cajero = input("Digite el id del cajero a modificar: ")
-    RevisarID(id_cajero)
-    if RevisarID(id_cajero)==False:
-        print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
-    else:
-        estado = input("Digite el nuevo estado: ")
-        modelo = input("Digite el nuevo modelo: ")
-        zona = input("Digite la nueva zona: ")
-        ModificarCajero(estado, modelo, zona, id_cajero)
+        
+    elif opcion == 2:
+        print("\n----------------------------------------------------------------\n Cajeros actuales: \n")
+        LeerCajero()
         print("\n----------------------------------------------------------------\n")
-elif opcion == 5:
-    print("\n----------------------------------------------------------------\n Transacciones cajero: \n")
-    id_cajero = input("Digite el id del cajero a consultar: ")
-    RevisarID(id_cajero)
-    if RevisarID(id_cajero)==False:
-        print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
-    else:
-        listaT=LeerTransacciones(id_cajero)
-        for transaccion in listaT:
-            n=n+1
-            transaccionJSON=json.loads(transaccion)
-            print(f'Transacción {n}',str(transaccionJSON))
-        print("\n----------------------------------------------------------------\n")
+        main()
+    elif opcion == 3:
+        print("\n----------------------------------------------------------------\n Eliminación de cajero: \n")
+        id_cajero = input("Digite el id del cajero a eliminar: ")
+        RevisarID(id_cajero)
+        if RevisarID(id_cajero)==False:
+            print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
+            main()
+        else:
+            EliminarCajero(id_cajero)
+            print(bcolors.OK+f'El cajero con id {id_cajero} ha sido eliminado exitosamente'+bcolors.RESET)
+            print("\n----------------------------------------------------------------\n")
+            main()
+    elif opcion == 4:
+        print("\n----------------------------------------------------------------\n Modificación del cajero: \n")
+        id_cajero = input("Digite el id del cajero a modificar: ")
+        RevisarID(id_cajero)
+        if RevisarID(id_cajero)==False:
+            print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
+            main()
+        else:
+            estado = int(input("Estado del cajero: \n 1: Operando \n 2: Fuera de servicio \n 3: Cerrado \n Opcion: "))
+            if estado == 1:
+                estado = "Operando"
+            elif estado == 2:
+                estado = "Fuera de servicio"
+            elif estado == 3:
+                estado = "Cerrado"
+            else:
+                print("\n Opcion no valida")
+                main()
+            modeloCajero = input("Modelo del cajero: \n Año de fabricación: ")
+            zona = int(input("Zona del cajero: \n Por favor ingrese un número entre 1 y 10: "))
+            ModificarCajero(estado, modeloCajero, zona, id_cajero)
+            print(bcolors.OK+'\n Cajero actualizado con éxito \n'+bcolors.RESET)
+            main()
+    elif opcion == 5:
         n=0
-        opcionT = int(input("¿Que acción desea realizar?:\n 1: Crear transacción \n 2: Actualizar transacción \n 3: Eliminar transacción \n 4: Cancelar \n Su opción: "))
-        if opcionT==1:
-            monto=input("Digite el monto de la nueva transacción: ")
-            tipoCuenta=input("Digite el tipo de cuenta: ")
-            tipoMovimiento=input("Digite el tipo de movimiento: ")
-            fechaMovimiento=input("Digite la fecha del nuevo movimiento en formato D-M-A: ")
-            CrearTransaccion(listaT,id_cajero,monto,tipoCuenta,tipoMovimiento,fechaMovimiento)
+        print("\n----------------------------------------------------------------\n Transacciones cajero: \n")
+        id_cajero = input("Digite el id del cajero a consultar: ")
+        RevisarID(id_cajero)
+        if RevisarID(id_cajero)==False:
+            print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
+            main()
+        else:
             listaT=LeerTransacciones(id_cajero)
             for transaccion in listaT:
                 n=n+1
                 transaccionJSON=json.loads(transaccion)
                 print(f'Transacción {n}',str(transaccionJSON))
+            print("\n----------------------------------------------------------------\n")
+            n=0
+            opcionT = int(input("¿Que acción desea realizar?:\n 1: Crear transacción \n 2: Actualizar transacción \n 3: Eliminar transacción \n 4: Cancelar \n Su opción: "))
+            if opcionT==1:
+                monto=int(input("Digite el monto de la nueva transacción: "))
+                tipoCuenta=input("Tipo de cuenta: \n 1: Cuenta corriente \n 2: Cuenta de ahorro \n 3: Cuenta virtual \n Su opción: ")
+                if tipoCuenta==1:
+                    tipoCuenta="corriente"
+                elif tipoCuenta==2:
+                    tipoCuenta="ahorro"
+                elif tipoCuenta==3:
+                    tipoCuenta="cuentaVirtual"
+                else:
+                    print("\n Opcion no válida")
+                    main()
+                tipoMovimiento=input("Digite el tipo de movimiento: \n 1: Retiro \n 2: Consignación \n 3: Transferencia \n Su opción: ")
+                if tipoMovimiento==1:
+                    tipoMovimiento="retiro"
+                elif tipoMovimiento==2:
+                    tipoMovimiento="consignacion"
+                elif tipoMovimiento==3:
+                    tipoMovimiento="transferencia"
+                else:
+                    print("\n Opcion no válida")
+                    main()
+                fechaMovimiento=input("Digite la fecha del nuevo movimiento en formato D-M-A: ")
+                CrearTransaccion(listaT,id_cajero,monto,tipoCuenta,tipoMovimiento,fechaMovimiento)
+                listaT=LeerTransacciones(id_cajero)
+                for transaccion in listaT:
+                    n=n+1
+                    transaccionJSON=json.loads(transaccion)
+                    print(f'Transacción {n}',str(transaccionJSON))
 
-        if opcionT==2:
-            NumeroTransaccion=int(input("Digite el número de la transacción a actualizar:"))
-            monto=input("Digite el monto: ")
-            tipoCuenta=input("Digite el tipo de cuenta: ")
-            tipoMovimiento=input("Digite el tipo de movimiento: ")
-            fechaMovimiento=input("Digite la fecha en formato D-M-A: ")
-            ActualizarTransaccion(listaT,id_cajero,monto,tipoCuenta,tipoMovimiento,fechaMovimiento,NumeroTransaccion)
+            if opcionT==2:
+                NumeroTransaccion=int(input("Digite el número de la transacción a actualizar:"))
+                monto=int(input("Digite el monto: "))
+                tipoCuenta=input("Tipo de cuenta: \n 1: Cuenta corriente \n 2: Cuenta de ahorro \n 3: Cuenta virtual \n Su opción: ")
+                if tipoCuenta==1:
+                    tipoCuenta="corriente"
+                elif tipoCuenta==2:
+                    tipoCuenta="ahorro"
+                elif tipoCuenta==3:
+                    tipoCuenta="cuentaVirtual"
+                else:
+                    print("\n Opcion no válida")
+                    main()
+                tipoMovimiento=input("Digite el tipo de movimiento: \n 1: Retiro \n 2: Consignación \n 3: Transferencia \n Su opción: ")
+                if tipoMovimiento==1:
+                    tipoMovimiento="retiro"
+                elif tipoMovimiento==2:
+                    tipoMovimiento="consignacion"
+                elif tipoMovimiento==3:
+                    tipoMovimiento="transferencia"
+                else:
+                    print("\n Opcion no válida")
+                    main()
+                fechaMovimiento=input("Digite la fecha en formato D-M-A: ")
+                ActualizarTransaccion(listaT,id_cajero,monto,tipoCuenta,tipoMovimiento,fechaMovimiento,NumeroTransaccion)
+                listaT=LeerTransacciones(id_cajero)
+                for transaccion in listaT:
+                    n=n+1
+                    transaccionJSON=json.loads(transaccion)
+                    print(f'Transacción {n}',str(transaccionJSON))
+
+            if opcionT==3:
+                NumeroTransaccion=int(input("Digite el número de la transacción a eliminar:\n "))
+                EliminarTransaccion(listaT,NumeroTransaccion,id_cajero)
+                listaT=LeerTransacciones(id_cajero)
+                for transaccion in listaT:
+                    n=n+1
+                    transaccionJSON=json.loads(transaccion)
+                    print(f'Transacción {n}',str(transaccionJSON))
+
+            if opcionT==4:
+                print("\nAdiós\n----------------------------------------------------------------\n")
+                main()
+        main()
+    elif opcion == 6:
+        n=0
+        print("\n----------------------------------------------------------------\n Transacciones cajero: \n")
+        id_cajero = input("Digite el id del cajero a consultar: ")
+        RevisarID(id_cajero)
+        if RevisarID(id_cajero)==False:
+            print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
+            main()
+        else:
             listaT=LeerTransacciones(id_cajero)
             for transaccion in listaT:
                 n=n+1
                 transaccionJSON=json.loads(transaccion)
                 print(f'Transacción {n}',str(transaccionJSON))
+            print("\n----------------------------------------------------------------\n")
+            main()
 
-        if opcionT==3:
-            NumeroTransaccion=int(input("Digite el número de la transacción a eliminar:\n "))
-            EliminarTransaccion(listaT,NumeroTransaccion,id_cajero)
-            listaT=LeerTransacciones(id_cajero)
-            for transaccion in listaT:
-                n=n+1
-                transaccionJSON=json.loads(transaccion)
-                print(f'Transacción {n}',str(transaccionJSON))
+    elif opcion == 7:
+        print("\nAdiós\n----------------------------------------------------------------\n")
 
-        if opcionT==4:
-            print("\nAdiós\n----------------------------------------------------------------\n")
+    else:
+        print("\n----------------------------------------------------------------\n Opción inválida \n")
+        print("\n----------------------------------------------------------------\n")
 
-elif opcion == 6:
-    print("\nAdiós\n----------------------------------------------------------------\n")
-
-else:
-    print("\n----------------------------------------------------------------\n Opción inválida \n")
-    print("\n----------------------------------------------------------------\n")
-
+if __name__ == "__main__":
+    main()
 
 
