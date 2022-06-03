@@ -34,10 +34,28 @@ def jsonDiccionario():
         cajeros = cursord.fetchall()
         str_cajeros = json.dumps(cajeros)
         objeto_cajeros = json.loads(str_cajeros)
-        n=0
+        n = 0
         for cajero in objeto_cajeros:
-            n=n+1
-            print(f'Cajero {n}:\n',cajero)
+            n = n+1
+            print(f'Cajero {n}:\n', cajero)
+        print(type(objeto_cajeros))
+        print(type(cajeros))
+
+
+def prueba():
+    json_str = r'["Alice", "Bob", "Carl"]'
+    print(type(json_str))
+
+
+    my_tuple = tuple(json.loads(json_str))
+
+    print(my_tuple)  # 👉️ ('Alice', 'Bob', 'Carl')
+    print(type(my_tuple))  # 👉️ <class 'tuple'>
+
+    my_json_str = json.dumps(my_tuple)
+
+    print(my_json_str)  # 👉️ '["Alice", "Bob", "Carl"]'
+    print(type(my_json_str))  # 👉️ <class 'str'>
 
 
 def CrearCajero(estado, modeloCajero, transacciones, zona, id_equipo):
@@ -80,7 +98,7 @@ def LeerTransacciones(id_cajero):
             print(cajero)
 
 
-opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Ver todas las transacciones de un cajero \n 6: Cajeros diccionario \n \n Su opción: "))
+opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Ver todas las transacciones de un cajero \n 6: Cajeros diccioanrio \n \n Su opción: "))
 if opcion == 1:
     print("\n----------------------------------------------------------------\n Creación de cajero: \n")
     CrearCajero("Disponible", 2015,
@@ -111,4 +129,8 @@ elif opcion == 5:
 elif opcion == 6:
     print("\n----------------------------------------------------------------\n Diccionario json: \n")
     jsonDiccionario()
+    print("\n----------------------------------------------------------------\n")
+elif opcion == 7:
+    print("\n----------------------------------------------------------------\n Prueba: \n")
+    prueba()
     print("\n----------------------------------------------------------------\n")
