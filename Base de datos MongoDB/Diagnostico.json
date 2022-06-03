@@ -1,0 +1,421 @@
+[{
+  "_id": 1,
+  "ID_Diagnostico": 1,
+  "Fecha": "2013-03-18",
+  "ID_Arbol": 63,
+  "ID_Enfermedad": 2
+},{
+  "_id": 2,
+  "ID_Diagnostico": 2,
+  "Fecha": "2015-07-23",
+  "ID_Arbol": 86,
+  "ID_Enfermedad": 5
+},{
+  "_id": 3,
+  "ID_Diagnostico": 3,
+  "Fecha": "2015-07-04",
+  "ID_Arbol": 192,
+  "ID_Enfermedad": 8
+},{
+  "_id": 4,
+  "ID_Diagnostico": 4,
+  "Fecha": "2021-03-25",
+  "ID_Arbol": 141,
+  "ID_Enfermedad": 7
+},{
+  "_id": 5,
+  "ID_Diagnostico": 5,
+  "Fecha": "2018-01-24",
+  "ID_Arbol": 41,
+  "ID_Enfermedad": 7
+},{
+  "_id": 6,
+  "ID_Diagnostico": 6,
+  "Fecha": "2020-03-25",
+  "ID_Arbol": 164,
+  "ID_Enfermedad": 6
+},{
+  "_id": 7,
+  "ID_Diagnostico": 7,
+  "Fecha": "2012-07-15",
+  "ID_Arbol": 116,
+  "ID_Enfermedad": 7
+},{
+  "_id": 8,
+  "ID_Diagnostico": 8,
+  "Fecha": "2015-12-27",
+  "ID_Arbol": 181,
+  "ID_Enfermedad": 8
+},{
+  "_id": 9,
+  "ID_Diagnostico": 9,
+  "Fecha": "2017-12-28",
+  "ID_Arbol": 157,
+  "ID_Enfermedad": 2
+},{
+  "_id": 10,
+  "ID_Diagnostico": 10,
+  "Fecha": "2018-07-27",
+  "ID_Arbol": 166,
+  "ID_Enfermedad": 6
+},{
+  "_id": 11,
+  "ID_Diagnostico": 11,
+  "Fecha": "2018-10-28",
+  "ID_Arbol": 47,
+  "ID_Enfermedad": 2
+},{
+  "_id": 12,
+  "ID_Diagnostico": 12,
+  "Fecha": "2015-01-24",
+  "ID_Arbol": 104,
+  "ID_Enfermedad": 6
+},{
+  "_id": 13,
+  "ID_Diagnostico": 13,
+  "Fecha": "2014-06-18",
+  "ID_Arbol": 79,
+  "ID_Enfermedad": 5
+},{
+  "_id": 14,
+  "ID_Diagnostico": 14,
+  "Fecha": "2019-02-05",
+  "ID_Arbol": 102,
+  "ID_Enfermedad": 7
+},{
+  "_id": 15,
+  "ID_Diagnostico": 15,
+  "Fecha": "2017-09-14",
+  "ID_Arbol": 83,
+  "ID_Enfermedad": 1
+},{
+  "_id": 16,
+  "ID_Diagnostico": 16,
+  "Fecha": "2020-08-12",
+  "ID_Arbol": 192,
+  "ID_Enfermedad": 9
+},{
+  "_id": 17,
+  "ID_Diagnostico": 17,
+  "Fecha": "2013-10-02",
+  "ID_Arbol": 84,
+  "ID_Enfermedad": 5
+},{
+  "_id": 18,
+  "ID_Diagnostico": 18,
+  "Fecha": "2017-01-10",
+  "ID_Arbol": 19,
+  "ID_Enfermedad": 4
+},{
+  "_id": 19,
+  "ID_Diagnostico": 19,
+  "Fecha": "2021-02-25",
+  "ID_Arbol": 76,
+  "ID_Enfermedad": 5
+},{
+  "_id": 20,
+  "ID_Diagnostico": 20,
+  "Fecha": "2017-08-17",
+  "ID_Arbol": 173,
+  "ID_Enfermedad": 4
+},{
+  "_id": 21,
+  "ID_Diagnostico": 21,
+  "Fecha": "2021-06-27",
+  "ID_Arbol": 62,
+  "ID_Enfermedad": 3
+},{
+  "_id": 22,
+  "ID_Diagnostico": 22,
+  "Fecha": "2016-07-18",
+  "ID_Arbol": 133,
+  "ID_Enfermedad": 1
+},{
+  "_id": 23,
+  "ID_Diagnostico": 23,
+  "Fecha": "2012-02-05",
+  "ID_Arbol": 150,
+  "ID_Enfermedad": 5
+},{
+  "_id": 24,
+  "ID_Diagnostico": 24,
+  "Fecha": "2013-04-06",
+  "ID_Arbol": 119,
+  "ID_Enfermedad": 7
+},{
+  "_id": 25,
+  "ID_Diagnostico": 25,
+  "Fecha": "2012-11-25",
+  "ID_Arbol": 101,
+  "ID_Enfermedad": 8
+},{
+  "_id": 26,
+  "ID_Diagnostico": 26,
+  "Fecha": "2020-01-10",
+  "ID_Arbol": 115,
+  "ID_Enfermedad": 2
+},{
+  "_id": 27,
+  "ID_Diagnostico": 27,
+  "Fecha": "2012-10-04",
+  "ID_Arbol": 192,
+  "ID_Enfermedad": 3
+},{
+  "_id": 28,
+  "ID_Diagnostico": 28,
+  "Fecha": "2017-03-23",
+  "ID_Arbol": 123,
+  "ID_Enfermedad": 7
+},{
+  "_id": 29,
+  "ID_Diagnostico": 29,
+  "Fecha": "2014-10-25",
+  "ID_Arbol": 43,
+  "ID_Enfermedad": 3
+},{
+  "_id": 30,
+  "ID_Diagnostico": 30,
+  "Fecha": "2018-11-20",
+  "ID_Arbol": 166,
+  "ID_Enfermedad": 8
+},{
+  "_id": 31,
+  "ID_Diagnostico": 31,
+  "Fecha": "2015-07-09",
+  "ID_Arbol": 164,
+  "ID_Enfermedad": 6
+},{
+  "_id": 32,
+  "ID_Diagnostico": 32,
+  "Fecha": "2019-03-22",
+  "ID_Arbol": 29,
+  "ID_Enfermedad": 9
+},{
+  "_id": 33,
+  "ID_Diagnostico": 33,
+  "Fecha": "2013-11-06",
+  "ID_Arbol": 22,
+  "ID_Enfermedad": 4
+},{
+  "_id": 34,
+  "ID_Diagnostico": 34,
+  "Fecha": "2015-05-08",
+  "ID_Arbol": 15,
+  "ID_Enfermedad": 1
+},{
+  "_id": 35,
+  "ID_Diagnostico": 35,
+  "Fecha": "2013-08-20",
+  "ID_Arbol": 189,
+  "ID_Enfermedad": 1
+},{
+  "_id": 36,
+  "ID_Diagnostico": 36,
+  "Fecha": "2014-10-05",
+  "ID_Arbol": 27,
+  "ID_Enfermedad": 8
+},{
+  "_id": 37,
+  "ID_Diagnostico": 37,
+  "Fecha": "2019-02-20",
+  "ID_Arbol": 32,
+  "ID_Enfermedad": 3
+},{
+  "_id": 38,
+  "ID_Diagnostico": 38,
+  "Fecha": "2019-09-13",
+  "ID_Arbol": 26,
+  "ID_Enfermedad": 9
+},{
+  "_id": 39,
+  "ID_Diagnostico": 39,
+  "Fecha": "2020-06-08",
+  "ID_Arbol": 1,
+  "ID_Enfermedad": 3
+},{
+  "_id": 40,
+  "ID_Diagnostico": 40,
+  "Fecha": "2020-12-04",
+  "ID_Arbol": 161,
+  "ID_Enfermedad": 3
+},{
+  "_id": 41,
+  "ID_Diagnostico": 41,
+  "Fecha": "2018-05-17",
+  "ID_Arbol": 71,
+  "ID_Enfermedad": 4
+},{
+  "_id": 42,
+  "ID_Diagnostico": 42,
+  "Fecha": "2013-06-20",
+  "ID_Arbol": 105,
+  "ID_Enfermedad": 4
+},{
+  "_id": 43,
+  "ID_Diagnostico": 43,
+  "Fecha": "2013-08-13",
+  "ID_Arbol": 147,
+  "ID_Enfermedad": 9
+},{
+  "_id": 44,
+  "ID_Diagnostico": 44,
+  "Fecha": "2016-12-25",
+  "ID_Arbol": 190,
+  "ID_Enfermedad": 4
+},{
+  "_id": 45,
+  "ID_Diagnostico": 45,
+  "Fecha": "2015-06-27",
+  "ID_Arbol": 85,
+  "ID_Enfermedad": 6
+},{
+  "_id": 46,
+  "ID_Diagnostico": 46,
+  "Fecha": "2019-05-20",
+  "ID_Arbol": 174,
+  "ID_Enfermedad": 9
+},{
+  "_id": 47,
+  "ID_Diagnostico": 47,
+  "Fecha": "2017-06-27",
+  "ID_Arbol": 160,
+  "ID_Enfermedad": 3
+},{
+  "_id": 48,
+  "ID_Diagnostico": 48,
+  "Fecha": "2020-10-10",
+  "ID_Arbol": 113,
+  "ID_Enfermedad": 3
+},{
+  "_id": 49,
+  "ID_Diagnostico": 49,
+  "Fecha": "2019-11-09",
+  "ID_Arbol": 81,
+  "ID_Enfermedad": 9
+},{
+  "_id": 50,
+  "ID_Diagnostico": 50,
+  "Fecha": "2018-05-14",
+  "ID_Arbol": 109,
+  "ID_Enfermedad": 6
+},{
+  "_id": 51,
+  "ID_Diagnostico": 51,
+  "Fecha": "2016-03-27",
+  "ID_Arbol": 121,
+  "ID_Enfermedad": 8
+},{
+  "_id": 52,
+  "ID_Diagnostico": 52,
+  "Fecha": "2019-10-13",
+  "ID_Arbol": 192,
+  "ID_Enfermedad": 8
+},{
+  "_id": 53,
+  "ID_Diagnostico": 53,
+  "Fecha": "2016-04-14",
+  "ID_Arbol": 151,
+  "ID_Enfermedad": 7
+},{
+  "_id": 54,
+  "ID_Diagnostico": 54,
+  "Fecha": "2015-10-19",
+  "ID_Arbol": 31,
+  "ID_Enfermedad": 4
+},{
+  "_id": 55,
+  "ID_Diagnostico": 55,
+  "Fecha": "2017-05-22",
+  "ID_Arbol": 144,
+  "ID_Enfermedad": 5
+},{
+  "_id": 56,
+  "ID_Diagnostico": 56,
+  "Fecha": "2020-10-27",
+  "ID_Arbol": 122,
+  "ID_Enfermedad": 6
+},{
+  "_id": 57,
+  "ID_Diagnostico": 57,
+  "Fecha": "2014-12-03",
+  "ID_Arbol": 22,
+  "ID_Enfermedad": 5
+},{
+  "_id": 58,
+  "ID_Diagnostico": 58,
+  "Fecha": "2012-12-24",
+  "ID_Arbol": 80,
+  "ID_Enfermedad": 4
+},{
+  "_id": 59,
+  "ID_Diagnostico": 59,
+  "Fecha": "2017-09-14",
+  "ID_Arbol": 102,
+  "ID_Enfermedad": 7
+},{
+  "_id": 60,
+  "ID_Diagnostico": 60,
+  "Fecha": "2013-09-12",
+  "ID_Arbol": 196,
+  "ID_Enfermedad": 9
+},{
+  "_id": 61,
+  "ID_Diagnostico": 61,
+  "Fecha": "2015-12-25",
+  "ID_Arbol": 32,
+  "ID_Enfermedad": 1
+},{
+  "_id": 62,
+  "ID_Diagnostico": 62,
+  "Fecha": "2019-04-28",
+  "ID_Arbol": 170,
+  "ID_Enfermedad": 9
+},{
+  "_id": 63,
+  "ID_Diagnostico": 63,
+  "Fecha": "2021-06-16",
+  "ID_Arbol": 77,
+  "ID_Enfermedad": 1
+},{
+  "_id": 64,
+  "ID_Diagnostico": 64,
+  "Fecha": "2018-08-02",
+  "ID_Arbol": 44,
+  "ID_Enfermedad": 7
+},{
+  "_id": 65,
+  "ID_Diagnostico": 65,
+  "Fecha": "2012-06-21",
+  "ID_Arbol": 190,
+  "ID_Enfermedad": 9
+},{
+  "_id": 66,
+  "ID_Diagnostico": 66,
+  "Fecha": "2016-02-04",
+  "ID_Arbol": 156,
+  "ID_Enfermedad": 3
+},{
+  "_id": 67,
+  "ID_Diagnostico": 67,
+  "Fecha": "2020-10-23",
+  "ID_Arbol": 106,
+  "ID_Enfermedad": 9
+},{
+  "_id": 68,
+  "ID_Diagnostico": 68,
+  "Fecha": "2015-01-19",
+  "ID_Arbol": 182,
+  "ID_Enfermedad": 5
+},{
+  "_id": 69,
+  "ID_Diagnostico": 69,
+  "Fecha": "2020-12-08",
+  "ID_Arbol": 190,
+  "ID_Enfermedad": 4
+},{
+  "_id": 70,
+  "ID_Diagnostico": 70,
+  "Fecha": "2019-12-13",
+  "ID_Arbol": 188,
+  "ID_Enfermedad": 2
+}]

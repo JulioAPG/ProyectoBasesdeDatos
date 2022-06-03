@@ -1,0 +1,177 @@
+[{
+  "_id": 1,
+  "ID_Trabajador": 1,
+  "Nombre": "Luis",
+  "CC": "CCh3l6nbi",
+  "Telefono": "34511881",
+  "EPS": "Consalud",
+  "ARL": "Colmena"
+},{
+  "_id": 2,
+  "ID_Trabajador": 2,
+  "Nombre": "Carlos",
+  "CC": "CCdkuz4q1",
+  "Telefono": "36377860",
+  "EPS": "Magisterio",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 3,
+  "ID_Trabajador": 3,
+  "Nombre": "Bart",
+  "CC": "CCfzw43zx",
+  "Telefono": "34628827",
+  "EPS": "Sura",
+  "ARL": "Sura"
+},{
+  "_id": 4,
+  "ID_Trabajador": 4,
+  "Nombre": "Jack",
+  "CC": "CC3u8sud5",
+  "Telefono": "34794657",
+  "EPS": "Magisterio",
+  "ARL": "Sura"
+},{
+  "_id": 5,
+  "ID_Trabajador": 5,
+  "Nombre": "Homero",
+  "CC": "CC80k6kff",
+  "Telefono": "34937859",
+  "EPS": "Consalud",
+  "ARL": "Proyeccion"
+},{
+  "_id": 6,
+  "ID_Trabajador": 6,
+  "Nombre": "Juana",
+  "CC": "CCgj3745l",
+  "Telefono": "39625842",
+  "EPS": "ColMedica",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 7,
+  "ID_Trabajador": 7,
+  "Nombre": "Monica",
+  "CC": "CCn7bm3dp",
+  "Telefono": "36492889",
+  "EPS": "Sanitas",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 8,
+  "ID_Trabajador": 8,
+  "Nombre": "Libia",
+  "CC": "CC48gmth7",
+  "Telefono": "39417965",
+  "EPS": "Magisterio",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 9,
+  "ID_Trabajador": 9,
+  "Nombre": "George",
+  "CC": "CCelb69jf",
+  "Telefono": "32456131",
+  "EPS": "Sura",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 10,
+  "ID_Trabajador": 10,
+  "Nombre": "Jorge",
+  "CC": "CCnpoft18",
+  "Telefono": "35854874",
+  "EPS": "Consalud",
+  "ARL": "Proyeccion"
+},{
+  "_id": 11,
+  "ID_Trabajador": 11,
+  "Nombre": "Diana",
+  "CC": "CC5b5flz1",
+  "Telefono": "35203129",
+  "EPS": "ColMedica",
+  "ARL": "Colmena"
+},{
+  "_id": 12,
+  "ID_Trabajador": 12,
+  "Nombre": "Beatriz",
+  "CC": "CCizbzfqp",
+  "Telefono": "35372455",
+  "EPS": "Consalud",
+  "ARL": "Sura"
+},{
+  "_id": 13,
+  "ID_Trabajador": 13,
+  "Nombre": "Paul",
+  "CC": "CC5ubf6xa",
+  "Telefono": "38539122",
+  "EPS": "Consalud",
+  "ARL": "Proyeccion"
+},{
+  "_id": 14,
+  "ID_Trabajador": 14,
+  "Nombre": "Carla",
+  "CC": "CChucg9cu",
+  "Telefono": "38455063",
+  "EPS": "Sanitas",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 15,
+  "ID_Trabajador": 15,
+  "Nombre": "Moe",
+  "CC": "CCn9oh98h",
+  "Telefono": "31510027",
+  "EPS": "Sanitas",
+  "ARL": "Colmena"
+},{
+  "_id": 16,
+  "ID_Trabajador": 16,
+  "Nombre": "Roncancio",
+  "CC": "CCf3icam7",
+  "Telefono": "30277957",
+  "EPS": "Medimas",
+  "ARL": "Colmena"
+},{
+  "_id": 17,
+  "ID_Trabajador": 17,
+  "Nombre": "Fulgencio",
+  "CC": "CCa0cvaz0",
+  "Telefono": "35118165",
+  "EPS": "Magisterio",
+  "ARL": "Proyeccion"
+},{
+  "_id": 18,
+  "ID_Trabajador": 18,
+  "Nombre": "Ana",
+  "CC": "CCg6smr6r",
+  "Telefono": "39084754",
+  "EPS": "ColMedica",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 19,
+  "ID_Trabajador": 19,
+  "Nombre": "Carla",
+  "CC": "CCca8sk6t",
+  "Telefono": "39322631",
+  "EPS": "Medimas",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 20,
+  "ID_Trabajador": 20,
+  "Nombre": "Nadia",
+  "CC": "CC453f7fr",
+  "Telefono": "32663923",
+  "EPS": "SOS",
+  "ARL": "Proyeccion"
+},{
+  "_id": 21,
+  "ID_Trabajador": 21,
+  "Nombre": "Pepe",
+  "CC": "CC2ff6jx6",
+  "Telefono": "34413937",
+  "EPS": "SOS",
+  "ARL": "AXA_Colpatria"
+},{
+  "_id": 22,
+  "ID_Trabajador": 22,
+  "Nombre": "Maradona",
+  "CC": "CCpci7t96",
+  "Telefono": "31356098",
+  "EPS": "Magisterio",
+  "ARL": "Proyeccion"
+}]

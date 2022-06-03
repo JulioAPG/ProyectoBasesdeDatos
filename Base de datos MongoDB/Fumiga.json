@@ -1,0 +1,3501 @@
+[{
+  "_id": 1,
+  "ID_Fumiga": 1,
+  "Fecha": "2017-06-26",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 59
+},{
+  "_id": 2,
+  "ID_Fumiga": 2,
+  "Fecha": "2016-07-20",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 173
+},{
+  "_id": 3,
+  "ID_Fumiga": 3,
+  "Fecha": "2016-06-17",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 178
+},{
+  "_id": 4,
+  "ID_Fumiga": 4,
+  "Fecha": "2020-10-01",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 109
+},{
+  "_id": 5,
+  "ID_Fumiga": 5,
+  "Fecha": "2021-01-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 20
+},{
+  "_id": 6,
+  "ID_Fumiga": 6,
+  "Fecha": "2016-07-07",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 67
+},{
+  "_id": 7,
+  "ID_Fumiga": 7,
+  "Fecha": "2019-05-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 37
+},{
+  "_id": 8,
+  "ID_Fumiga": 8,
+  "Fecha": "2013-05-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 122
+},{
+  "_id": 9,
+  "ID_Fumiga": 9,
+  "Fecha": "2012-07-07",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 157
+},{
+  "_id": 10,
+  "ID_Fumiga": 10,
+  "Fecha": "2020-12-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 156
+},{
+  "_id": 11,
+  "ID_Fumiga": 11,
+  "Fecha": "2018-08-28",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 184
+},{
+  "_id": 12,
+  "ID_Fumiga": 12,
+  "Fecha": "2012-09-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 61
+},{
+  "_id": 13,
+  "ID_Fumiga": 13,
+  "Fecha": "2016-11-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 65
+},{
+  "_id": 14,
+  "ID_Fumiga": 14,
+  "Fecha": "2018-06-06",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 171
+},{
+  "_id": 15,
+  "ID_Fumiga": 15,
+  "Fecha": "2013-09-16",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 149
+},{
+  "_id": 16,
+  "ID_Fumiga": 16,
+  "Fecha": "2016-11-16",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 181
+},{
+  "_id": 17,
+  "ID_Fumiga": 17,
+  "Fecha": "2012-08-10",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 85
+},{
+  "_id": 18,
+  "ID_Fumiga": 18,
+  "Fecha": "2016-06-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 41
+},{
+  "_id": 19,
+  "ID_Fumiga": 19,
+  "Fecha": "2020-08-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 22
+},{
+  "_id": 20,
+  "ID_Fumiga": 20,
+  "Fecha": "2021-03-16",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 175
+},{
+  "_id": 21,
+  "ID_Fumiga": 21,
+  "Fecha": "2011-04-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 65
+},{
+  "_id": 22,
+  "ID_Fumiga": 22,
+  "Fecha": "2013-08-05",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 176
+},{
+  "_id": 23,
+  "ID_Fumiga": 23,
+  "Fecha": "2013-10-18",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 96
+},{
+  "_id": 24,
+  "ID_Fumiga": 24,
+  "Fecha": "2016-02-06",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 42
+},{
+  "_id": 25,
+  "ID_Fumiga": 25,
+  "Fecha": "2014-09-21",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 19
+},{
+  "_id": 26,
+  "ID_Fumiga": 26,
+  "Fecha": "2017-12-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 57
+},{
+  "_id": 27,
+  "ID_Fumiga": 27,
+  "Fecha": "2014-12-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 145
+},{
+  "_id": 28,
+  "ID_Fumiga": 28,
+  "Fecha": "2014-11-09",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 84
+},{
+  "_id": 29,
+  "ID_Fumiga": 29,
+  "Fecha": "2015-08-23",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 80
+},{
+  "_id": 30,
+  "ID_Fumiga": 30,
+  "Fecha": "2019-08-04",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 131
+},{
+  "_id": 31,
+  "ID_Fumiga": 31,
+  "Fecha": "2013-06-09",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 115
+},{
+  "_id": 32,
+  "ID_Fumiga": 32,
+  "Fecha": "2014-02-22",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 149
+},{
+  "_id": 33,
+  "ID_Fumiga": 33,
+  "Fecha": "2020-05-24",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 80
+},{
+  "_id": 34,
+  "ID_Fumiga": 34,
+  "Fecha": "2016-02-08",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 21
+},{
+  "_id": 35,
+  "ID_Fumiga": 35,
+  "Fecha": "2012-03-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 164
+},{
+  "_id": 36,
+  "ID_Fumiga": 36,
+  "Fecha": "2012-10-11",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 94
+},{
+  "_id": 37,
+  "ID_Fumiga": 37,
+  "Fecha": "2015-02-26",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 6
+},{
+  "_id": 38,
+  "ID_Fumiga": 38,
+  "Fecha": "2018-09-19",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 84
+},{
+  "_id": 39,
+  "ID_Fumiga": 39,
+  "Fecha": "2017-06-15",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 140
+},{
+  "_id": 40,
+  "ID_Fumiga": 40,
+  "Fecha": "2018-02-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 161
+},{
+  "_id": 41,
+  "ID_Fumiga": 41,
+  "Fecha": "2019-06-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 30
+},{
+  "_id": 42,
+  "ID_Fumiga": 42,
+  "Fecha": "2011-12-11",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 62
+},{
+  "_id": 43,
+  "ID_Fumiga": 43,
+  "Fecha": "2015-12-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 181
+},{
+  "_id": 44,
+  "ID_Fumiga": 44,
+  "Fecha": "2019-08-17",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 100
+},{
+  "_id": 45,
+  "ID_Fumiga": 45,
+  "Fecha": "2020-05-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 3
+},{
+  "_id": 46,
+  "ID_Fumiga": 46,
+  "Fecha": "2016-06-18",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 51
+},{
+  "_id": 47,
+  "ID_Fumiga": 47,
+  "Fecha": "2015-12-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 121
+},{
+  "_id": 48,
+  "ID_Fumiga": 48,
+  "Fecha": "2018-04-23",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 16
+},{
+  "_id": 49,
+  "ID_Fumiga": 49,
+  "Fecha": "2011-12-07",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 39
+},{
+  "_id": 50,
+  "ID_Fumiga": 50,
+  "Fecha": "2011-12-08",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 175
+},{
+  "_id": 51,
+  "ID_Fumiga": 51,
+  "Fecha": "2019-11-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 79
+},{
+  "_id": 52,
+  "ID_Fumiga": 52,
+  "Fecha": "2017-09-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 185
+},{
+  "_id": 53,
+  "ID_Fumiga": 53,
+  "Fecha": "2014-12-08",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 148
+},{
+  "_id": 54,
+  "ID_Fumiga": 54,
+  "Fecha": "2020-01-21",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 74
+},{
+  "_id": 55,
+  "ID_Fumiga": 55,
+  "Fecha": "2011-11-07",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 18
+},{
+  "_id": 56,
+  "ID_Fumiga": 56,
+  "Fecha": "2017-03-17",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 180
+},{
+  "_id": 57,
+  "ID_Fumiga": 57,
+  "Fecha": "2018-02-07",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 70
+},{
+  "_id": 58,
+  "ID_Fumiga": 58,
+  "Fecha": "2011-03-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 90
+},{
+  "_id": 59,
+  "ID_Fumiga": 59,
+  "Fecha": "2015-06-11",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 158
+},{
+  "_id": 60,
+  "ID_Fumiga": 60,
+  "Fecha": "2020-12-11",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 61
+},{
+  "_id": 61,
+  "ID_Fumiga": 61,
+  "Fecha": "2014-10-26",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 86
+},{
+  "_id": 62,
+  "ID_Fumiga": 62,
+  "Fecha": "2017-04-21",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 33
+},{
+  "_id": 63,
+  "ID_Fumiga": 63,
+  "Fecha": "2017-08-23",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 44
+},{
+  "_id": 64,
+  "ID_Fumiga": 64,
+  "Fecha": "2016-07-11",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 167
+},{
+  "_id": 65,
+  "ID_Fumiga": 65,
+  "Fecha": "2013-09-20",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 130
+},{
+  "_id": 66,
+  "ID_Fumiga": 66,
+  "Fecha": "2015-07-20",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 31
+},{
+  "_id": 67,
+  "ID_Fumiga": 67,
+  "Fecha": "2012-09-13",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 4
+},{
+  "_id": 68,
+  "ID_Fumiga": 68,
+  "Fecha": "2014-04-27",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 101
+},{
+  "_id": 69,
+  "ID_Fumiga": 69,
+  "Fecha": "2015-12-10",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 90
+},{
+  "_id": 70,
+  "ID_Fumiga": 70,
+  "Fecha": "2019-05-03",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 73
+},{
+  "_id": 71,
+  "ID_Fumiga": 71,
+  "Fecha": "2017-02-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 126
+},{
+  "_id": 72,
+  "ID_Fumiga": 72,
+  "Fecha": "2012-11-14",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 156
+},{
+  "_id": 73,
+  "ID_Fumiga": 73,
+  "Fecha": "2015-03-24",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 48
+},{
+  "_id": 74,
+  "ID_Fumiga": 74,
+  "Fecha": "2018-05-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 24
+},{
+  "_id": 75,
+  "ID_Fumiga": 75,
+  "Fecha": "2019-06-15",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 36
+},{
+  "_id": 76,
+  "ID_Fumiga": 76,
+  "Fecha": "2017-09-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 188
+},{
+  "_id": 77,
+  "ID_Fumiga": 77,
+  "Fecha": "2013-06-08",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 76
+},{
+  "_id": 78,
+  "ID_Fumiga": 78,
+  "Fecha": "2011-04-16",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 100
+},{
+  "_id": 79,
+  "ID_Fumiga": 79,
+  "Fecha": "2015-02-22",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 149
+},{
+  "_id": 80,
+  "ID_Fumiga": 80,
+  "Fecha": "2012-01-15",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 200
+},{
+  "_id": 81,
+  "ID_Fumiga": 81,
+  "Fecha": "2014-08-07",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 150
+},{
+  "_id": 82,
+  "ID_Fumiga": 82,
+  "Fecha": "2012-04-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 193
+},{
+  "_id": 83,
+  "ID_Fumiga": 83,
+  "Fecha": "2020-09-06",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 65
+},{
+  "_id": 84,
+  "ID_Fumiga": 84,
+  "Fecha": "2016-11-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 142
+},{
+  "_id": 85,
+  "ID_Fumiga": 85,
+  "Fecha": "2014-10-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 140
+},{
+  "_id": 86,
+  "ID_Fumiga": 86,
+  "Fecha": "2014-04-27",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 164
+},{
+  "_id": 87,
+  "ID_Fumiga": 87,
+  "Fecha": "2014-09-05",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 88
+},{
+  "_id": 88,
+  "ID_Fumiga": 88,
+  "Fecha": "2015-03-05",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 125
+},{
+  "_id": 89,
+  "ID_Fumiga": 89,
+  "Fecha": "2018-03-09",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 98
+},{
+  "_id": 90,
+  "ID_Fumiga": 90,
+  "Fecha": "2016-05-19",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 56
+},{
+  "_id": 91,
+  "ID_Fumiga": 91,
+  "Fecha": "2015-10-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 38
+},{
+  "_id": 92,
+  "ID_Fumiga": 92,
+  "Fecha": "2015-04-16",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 157
+},{
+  "_id": 93,
+  "ID_Fumiga": 93,
+  "Fecha": "2014-10-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 181
+},{
+  "_id": 94,
+  "ID_Fumiga": 94,
+  "Fecha": "2018-08-07",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 176
+},{
+  "_id": 95,
+  "ID_Fumiga": 95,
+  "Fecha": "2016-01-09",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 133
+},{
+  "_id": 96,
+  "ID_Fumiga": 96,
+  "Fecha": "2011-10-18",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 153
+},{
+  "_id": 97,
+  "ID_Fumiga": 97,
+  "Fecha": "2016-12-28",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 108
+},{
+  "_id": 98,
+  "ID_Fumiga": 98,
+  "Fecha": "2014-02-05",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 11
+},{
+  "_id": 99,
+  "ID_Fumiga": 99,
+  "Fecha": "2019-12-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 46
+},{
+  "_id": 100,
+  "ID_Fumiga": 100,
+  "Fecha": "2013-04-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 102
+},{
+  "_id": 101,
+  "ID_Fumiga": 101,
+  "Fecha": "2020-10-13",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 93
+},{
+  "_id": 102,
+  "ID_Fumiga": 102,
+  "Fecha": "2013-11-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 135
+},{
+  "_id": 103,
+  "ID_Fumiga": 103,
+  "Fecha": "2011-07-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 199
+},{
+  "_id": 104,
+  "ID_Fumiga": 104,
+  "Fecha": "2021-01-17",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 79
+},{
+  "_id": 105,
+  "ID_Fumiga": 105,
+  "Fecha": "2016-11-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 72
+},{
+  "_id": 106,
+  "ID_Fumiga": 106,
+  "Fecha": "2021-06-24",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 3
+},{
+  "_id": 107,
+  "ID_Fumiga": 107,
+  "Fecha": "2011-03-07",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 41
+},{
+  "_id": 108,
+  "ID_Fumiga": 108,
+  "Fecha": "2021-01-24",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 44
+},{
+  "_id": 109,
+  "ID_Fumiga": 109,
+  "Fecha": "2017-01-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 128
+},{
+  "_id": 110,
+  "ID_Fumiga": 110,
+  "Fecha": "2011-09-24",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 82
+},{
+  "_id": 111,
+  "ID_Fumiga": 111,
+  "Fecha": "2016-05-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 185
+},{
+  "_id": 112,
+  "ID_Fumiga": 112,
+  "Fecha": "2020-06-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 67
+},{
+  "_id": 113,
+  "ID_Fumiga": 113,
+  "Fecha": "2015-01-07",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 12
+},{
+  "_id": 114,
+  "ID_Fumiga": 114,
+  "Fecha": "2012-07-20",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 89
+},{
+  "_id": 115,
+  "ID_Fumiga": 115,
+  "Fecha": "2015-01-06",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 37
+},{
+  "_id": 116,
+  "ID_Fumiga": 116,
+  "Fecha": "2019-07-05",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 126
+},{
+  "_id": 117,
+  "ID_Fumiga": 117,
+  "Fecha": "2015-09-27",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 137
+},{
+  "_id": 118,
+  "ID_Fumiga": 118,
+  "Fecha": "2016-05-25",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 11
+},{
+  "_id": 119,
+  "ID_Fumiga": 119,
+  "Fecha": "2013-05-05",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 97
+},{
+  "_id": 120,
+  "ID_Fumiga": 120,
+  "Fecha": "2012-07-03",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 60
+},{
+  "_id": 121,
+  "ID_Fumiga": 121,
+  "Fecha": "2016-05-08",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 34
+},{
+  "_id": 122,
+  "ID_Fumiga": 122,
+  "Fecha": "2014-04-15",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 39
+},{
+  "_id": 123,
+  "ID_Fumiga": 123,
+  "Fecha": "2020-08-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 177
+},{
+  "_id": 124,
+  "ID_Fumiga": 124,
+  "Fecha": "2016-03-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 174
+},{
+  "_id": 125,
+  "ID_Fumiga": 125,
+  "Fecha": "2011-12-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 191
+},{
+  "_id": 126,
+  "ID_Fumiga": 126,
+  "Fecha": "2011-11-27",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 98
+},{
+  "_id": 127,
+  "ID_Fumiga": 127,
+  "Fecha": "2017-01-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 141
+},{
+  "_id": 128,
+  "ID_Fumiga": 128,
+  "Fecha": "2018-04-22",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 76
+},{
+  "_id": 129,
+  "ID_Fumiga": 129,
+  "Fecha": "2020-07-23",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 87
+},{
+  "_id": 130,
+  "ID_Fumiga": 130,
+  "Fecha": "2014-04-28",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 75
+},{
+  "_id": 131,
+  "ID_Fumiga": 131,
+  "Fecha": "2020-12-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 157
+},{
+  "_id": 132,
+  "ID_Fumiga": 132,
+  "Fecha": "2017-04-07",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 177
+},{
+  "_id": 133,
+  "ID_Fumiga": 133,
+  "Fecha": "2019-06-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 129
+},{
+  "_id": 134,
+  "ID_Fumiga": 134,
+  "Fecha": "2012-01-18",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 33
+},{
+  "_id": 135,
+  "ID_Fumiga": 135,
+  "Fecha": "2011-05-08",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 86
+},{
+  "_id": 136,
+  "ID_Fumiga": 136,
+  "Fecha": "2019-07-18",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 33
+},{
+  "_id": 137,
+  "ID_Fumiga": 137,
+  "Fecha": "2016-05-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 100
+},{
+  "_id": 138,
+  "ID_Fumiga": 138,
+  "Fecha": "2020-03-02",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 143
+},{
+  "_id": 139,
+  "ID_Fumiga": 139,
+  "Fecha": "2018-02-08",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 200
+},{
+  "_id": 140,
+  "ID_Fumiga": 140,
+  "Fecha": "2019-10-23",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 106
+},{
+  "_id": 141,
+  "ID_Fumiga": 141,
+  "Fecha": "2011-03-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 137
+},{
+  "_id": 142,
+  "ID_Fumiga": 142,
+  "Fecha": "2016-08-18",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 65
+},{
+  "_id": 143,
+  "ID_Fumiga": 143,
+  "Fecha": "2011-05-08",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 162
+},{
+  "_id": 144,
+  "ID_Fumiga": 144,
+  "Fecha": "2012-02-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 67
+},{
+  "_id": 145,
+  "ID_Fumiga": 145,
+  "Fecha": "2019-12-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 10
+},{
+  "_id": 146,
+  "ID_Fumiga": 146,
+  "Fecha": "2020-01-28",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 2
+},{
+  "_id": 147,
+  "ID_Fumiga": 147,
+  "Fecha": "2017-03-01",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 35
+},{
+  "_id": 148,
+  "ID_Fumiga": 148,
+  "Fecha": "2017-03-07",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 148
+},{
+  "_id": 149,
+  "ID_Fumiga": 149,
+  "Fecha": "2018-07-10",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 7
+},{
+  "_id": 150,
+  "ID_Fumiga": 150,
+  "Fecha": "2020-05-24",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 132
+},{
+  "_id": 151,
+  "ID_Fumiga": 151,
+  "Fecha": "2014-12-15",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 42
+},{
+  "_id": 152,
+  "ID_Fumiga": 152,
+  "Fecha": "2020-01-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 143
+},{
+  "_id": 153,
+  "ID_Fumiga": 153,
+  "Fecha": "2020-06-25",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 82
+},{
+  "_id": 154,
+  "ID_Fumiga": 154,
+  "Fecha": "2015-06-14",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 116
+},{
+  "_id": 155,
+  "ID_Fumiga": 155,
+  "Fecha": "2016-04-22",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 14
+},{
+  "_id": 156,
+  "ID_Fumiga": 156,
+  "Fecha": "2016-11-27",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 24
+},{
+  "_id": 157,
+  "ID_Fumiga": 157,
+  "Fecha": "2016-06-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 148
+},{
+  "_id": 158,
+  "ID_Fumiga": 158,
+  "Fecha": "2021-01-15",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 180
+},{
+  "_id": 159,
+  "ID_Fumiga": 159,
+  "Fecha": "2018-09-28",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 149
+},{
+  "_id": 160,
+  "ID_Fumiga": 160,
+  "Fecha": "2011-06-22",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 156
+},{
+  "_id": 161,
+  "ID_Fumiga": 161,
+  "Fecha": "2014-04-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 87
+},{
+  "_id": 162,
+  "ID_Fumiga": 162,
+  "Fecha": "2016-01-26",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 40
+},{
+  "_id": 163,
+  "ID_Fumiga": 163,
+  "Fecha": "2020-12-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 45
+},{
+  "_id": 164,
+  "ID_Fumiga": 164,
+  "Fecha": "2018-03-02",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 100
+},{
+  "_id": 165,
+  "ID_Fumiga": 165,
+  "Fecha": "2017-07-22",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 118
+},{
+  "_id": 166,
+  "ID_Fumiga": 166,
+  "Fecha": "2016-02-03",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 83
+},{
+  "_id": 167,
+  "ID_Fumiga": 167,
+  "Fecha": "2013-03-01",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 31
+},{
+  "_id": 168,
+  "ID_Fumiga": 168,
+  "Fecha": "2015-12-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 98
+},{
+  "_id": 169,
+  "ID_Fumiga": 169,
+  "Fecha": "2012-05-01",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 194
+},{
+  "_id": 170,
+  "ID_Fumiga": 170,
+  "Fecha": "2014-02-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 110
+},{
+  "_id": 171,
+  "ID_Fumiga": 171,
+  "Fecha": "2013-05-15",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 173
+},{
+  "_id": 172,
+  "ID_Fumiga": 172,
+  "Fecha": "2018-11-26",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 119
+},{
+  "_id": 173,
+  "ID_Fumiga": 173,
+  "Fecha": "2018-08-24",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 197
+},{
+  "_id": 174,
+  "ID_Fumiga": 174,
+  "Fecha": "2012-07-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 192
+},{
+  "_id": 175,
+  "ID_Fumiga": 175,
+  "Fecha": "2011-11-22",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 195
+},{
+  "_id": 176,
+  "ID_Fumiga": 176,
+  "Fecha": "2012-08-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 143
+},{
+  "_id": 177,
+  "ID_Fumiga": 177,
+  "Fecha": "2020-06-27",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 109
+},{
+  "_id": 178,
+  "ID_Fumiga": 178,
+  "Fecha": "2015-05-07",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 176
+},{
+  "_id": 179,
+  "ID_Fumiga": 179,
+  "Fecha": "2011-07-09",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 121
+},{
+  "_id": 180,
+  "ID_Fumiga": 180,
+  "Fecha": "2018-04-14",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 77
+},{
+  "_id": 181,
+  "ID_Fumiga": 181,
+  "Fecha": "2016-11-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 86
+},{
+  "_id": 182,
+  "ID_Fumiga": 182,
+  "Fecha": "2013-01-19",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 137
+},{
+  "_id": 183,
+  "ID_Fumiga": 183,
+  "Fecha": "2019-07-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 178
+},{
+  "_id": 184,
+  "ID_Fumiga": 184,
+  "Fecha": "2011-04-15",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 183
+},{
+  "_id": 185,
+  "ID_Fumiga": 185,
+  "Fecha": "2012-09-18",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 27
+},{
+  "_id": 186,
+  "ID_Fumiga": 186,
+  "Fecha": "2014-08-21",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 108
+},{
+  "_id": 187,
+  "ID_Fumiga": 187,
+  "Fecha": "2013-12-19",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 13
+},{
+  "_id": 188,
+  "ID_Fumiga": 188,
+  "Fecha": "2017-03-06",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 24
+},{
+  "_id": 189,
+  "ID_Fumiga": 189,
+  "Fecha": "2020-03-26",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 70
+},{
+  "_id": 190,
+  "ID_Fumiga": 190,
+  "Fecha": "2014-10-12",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 185
+},{
+  "_id": 191,
+  "ID_Fumiga": 191,
+  "Fecha": "2016-08-02",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 140
+},{
+  "_id": 192,
+  "ID_Fumiga": 192,
+  "Fecha": "2015-07-09",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 72
+},{
+  "_id": 193,
+  "ID_Fumiga": 193,
+  "Fecha": "2011-09-20",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 127
+},{
+  "_id": 194,
+  "ID_Fumiga": 194,
+  "Fecha": "2015-03-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 97
+},{
+  "_id": 195,
+  "ID_Fumiga": 195,
+  "Fecha": "2011-11-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 186
+},{
+  "_id": 196,
+  "ID_Fumiga": 196,
+  "Fecha": "2014-02-09",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 111
+},{
+  "_id": 197,
+  "ID_Fumiga": 197,
+  "Fecha": "2011-08-01",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 180
+},{
+  "_id": 198,
+  "ID_Fumiga": 198,
+  "Fecha": "2013-04-21",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 186
+},{
+  "_id": 199,
+  "ID_Fumiga": 199,
+  "Fecha": "2019-12-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 83
+},{
+  "_id": 200,
+  "ID_Fumiga": 200,
+  "Fecha": "2012-12-15",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 46
+},{
+  "_id": 201,
+  "ID_Fumiga": 201,
+  "Fecha": "2014-03-09",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 139
+},{
+  "_id": 202,
+  "ID_Fumiga": 202,
+  "Fecha": "2017-07-18",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 29
+},{
+  "_id": 203,
+  "ID_Fumiga": 203,
+  "Fecha": "2020-07-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 94
+},{
+  "_id": 204,
+  "ID_Fumiga": 204,
+  "Fecha": "2016-04-28",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 33
+},{
+  "_id": 205,
+  "ID_Fumiga": 205,
+  "Fecha": "2019-12-24",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 97
+},{
+  "_id": 206,
+  "ID_Fumiga": 206,
+  "Fecha": "2011-12-02",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 77
+},{
+  "_id": 207,
+  "ID_Fumiga": 207,
+  "Fecha": "2021-05-18",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 160
+},{
+  "_id": 208,
+  "ID_Fumiga": 208,
+  "Fecha": "2020-07-07",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 45
+},{
+  "_id": 209,
+  "ID_Fumiga": 209,
+  "Fecha": "2014-09-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 121
+},{
+  "_id": 210,
+  "ID_Fumiga": 210,
+  "Fecha": "2017-06-08",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 42
+},{
+  "_id": 211,
+  "ID_Fumiga": 211,
+  "Fecha": "2017-03-28",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 19
+},{
+  "_id": 212,
+  "ID_Fumiga": 212,
+  "Fecha": "2019-12-25",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 119
+},{
+  "_id": 213,
+  "ID_Fumiga": 213,
+  "Fecha": "2018-07-15",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 147
+},{
+  "_id": 214,
+  "ID_Fumiga": 214,
+  "Fecha": "2015-06-07",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 158
+},{
+  "_id": 215,
+  "ID_Fumiga": 215,
+  "Fecha": "2013-05-18",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 184
+},{
+  "_id": 216,
+  "ID_Fumiga": 216,
+  "Fecha": "2020-02-02",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 139
+},{
+  "_id": 217,
+  "ID_Fumiga": 217,
+  "Fecha": "2016-10-26",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 89
+},{
+  "_id": 218,
+  "ID_Fumiga": 218,
+  "Fecha": "2013-12-26",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 192
+},{
+  "_id": 219,
+  "ID_Fumiga": 219,
+  "Fecha": "2011-02-21",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 115
+},{
+  "_id": 220,
+  "ID_Fumiga": 220,
+  "Fecha": "2016-11-13",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 97
+},{
+  "_id": 221,
+  "ID_Fumiga": 221,
+  "Fecha": "2017-04-28",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 35
+},{
+  "_id": 222,
+  "ID_Fumiga": 222,
+  "Fecha": "2016-06-27",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 69
+},{
+  "_id": 223,
+  "ID_Fumiga": 223,
+  "Fecha": "2013-01-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 160
+},{
+  "_id": 224,
+  "ID_Fumiga": 224,
+  "Fecha": "2011-07-02",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 43
+},{
+  "_id": 225,
+  "ID_Fumiga": 225,
+  "Fecha": "2015-08-01",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 107
+},{
+  "_id": 226,
+  "ID_Fumiga": 226,
+  "Fecha": "2017-04-01",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 7
+},{
+  "_id": 227,
+  "ID_Fumiga": 227,
+  "Fecha": "2019-01-25",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 52
+},{
+  "_id": 228,
+  "ID_Fumiga": 228,
+  "Fecha": "2012-08-27",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 7
+},{
+  "_id": 229,
+  "ID_Fumiga": 229,
+  "Fecha": "2014-05-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 142
+},{
+  "_id": 230,
+  "ID_Fumiga": 230,
+  "Fecha": "2015-12-11",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 108
+},{
+  "_id": 231,
+  "ID_Fumiga": 231,
+  "Fecha": "2019-03-25",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 148
+},{
+  "_id": 232,
+  "ID_Fumiga": 232,
+  "Fecha": "2019-12-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 148
+},{
+  "_id": 233,
+  "ID_Fumiga": 233,
+  "Fecha": "2019-12-21",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 45
+},{
+  "_id": 234,
+  "ID_Fumiga": 234,
+  "Fecha": "2018-12-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 87
+},{
+  "_id": 235,
+  "ID_Fumiga": 235,
+  "Fecha": "2014-05-09",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 93
+},{
+  "_id": 236,
+  "ID_Fumiga": 236,
+  "Fecha": "2014-05-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 39
+},{
+  "_id": 237,
+  "ID_Fumiga": 237,
+  "Fecha": "2021-01-22",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 116
+},{
+  "_id": 238,
+  "ID_Fumiga": 238,
+  "Fecha": "2014-10-19",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 87
+},{
+  "_id": 239,
+  "ID_Fumiga": 239,
+  "Fecha": "2012-11-17",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 22
+},{
+  "_id": 240,
+  "ID_Fumiga": 240,
+  "Fecha": "2014-04-02",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 156
+},{
+  "_id": 241,
+  "ID_Fumiga": 241,
+  "Fecha": "2014-03-20",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 196
+},{
+  "_id": 242,
+  "ID_Fumiga": 242,
+  "Fecha": "2016-02-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 110
+},{
+  "_id": 243,
+  "ID_Fumiga": 243,
+  "Fecha": "2016-04-02",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 157
+},{
+  "_id": 244,
+  "ID_Fumiga": 244,
+  "Fecha": "2016-04-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 70
+},{
+  "_id": 245,
+  "ID_Fumiga": 245,
+  "Fecha": "2013-07-01",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 40
+},{
+  "_id": 246,
+  "ID_Fumiga": 246,
+  "Fecha": "2011-01-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 61
+},{
+  "_id": 247,
+  "ID_Fumiga": 247,
+  "Fecha": "2013-08-16",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 6
+},{
+  "_id": 248,
+  "ID_Fumiga": 248,
+  "Fecha": "2011-12-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 54
+},{
+  "_id": 249,
+  "ID_Fumiga": 249,
+  "Fecha": "2013-09-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 180
+},{
+  "_id": 250,
+  "ID_Fumiga": 250,
+  "Fecha": "2013-08-19",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 36
+},{
+  "_id": 251,
+  "ID_Fumiga": 251,
+  "Fecha": "2015-12-19",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 151
+},{
+  "_id": 252,
+  "ID_Fumiga": 252,
+  "Fecha": "2017-03-05",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 151
+},{
+  "_id": 253,
+  "ID_Fumiga": 253,
+  "Fecha": "2015-03-01",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 50
+},{
+  "_id": 254,
+  "ID_Fumiga": 254,
+  "Fecha": "2021-04-04",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 127
+},{
+  "_id": 255,
+  "ID_Fumiga": 255,
+  "Fecha": "2019-03-14",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 192
+},{
+  "_id": 256,
+  "ID_Fumiga": 256,
+  "Fecha": "2011-06-03",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 46
+},{
+  "_id": 257,
+  "ID_Fumiga": 257,
+  "Fecha": "2021-05-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 167
+},{
+  "_id": 258,
+  "ID_Fumiga": 258,
+  "Fecha": "2011-01-06",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 76
+},{
+  "_id": 259,
+  "ID_Fumiga": 259,
+  "Fecha": "2014-09-02",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 37
+},{
+  "_id": 260,
+  "ID_Fumiga": 260,
+  "Fecha": "2021-05-15",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 46
+},{
+  "_id": 261,
+  "ID_Fumiga": 261,
+  "Fecha": "2020-07-11",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 47
+},{
+  "_id": 262,
+  "ID_Fumiga": 262,
+  "Fecha": "2011-09-23",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 175
+},{
+  "_id": 263,
+  "ID_Fumiga": 263,
+  "Fecha": "2018-02-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 102
+},{
+  "_id": 264,
+  "ID_Fumiga": 264,
+  "Fecha": "2021-04-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 157
+},{
+  "_id": 265,
+  "ID_Fumiga": 265,
+  "Fecha": "2020-12-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 27
+},{
+  "_id": 266,
+  "ID_Fumiga": 266,
+  "Fecha": "2014-01-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 176
+},{
+  "_id": 267,
+  "ID_Fumiga": 267,
+  "Fecha": "2013-12-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 9
+},{
+  "_id": 268,
+  "ID_Fumiga": 268,
+  "Fecha": "2013-11-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 37
+},{
+  "_id": 269,
+  "ID_Fumiga": 269,
+  "Fecha": "2014-04-20",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 72
+},{
+  "_id": 270,
+  "ID_Fumiga": 270,
+  "Fecha": "2013-09-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 19
+},{
+  "_id": 271,
+  "ID_Fumiga": 271,
+  "Fecha": "2012-03-14",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 107
+},{
+  "_id": 272,
+  "ID_Fumiga": 272,
+  "Fecha": "2015-06-26",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 34
+},{
+  "_id": 273,
+  "ID_Fumiga": 273,
+  "Fecha": "2017-03-27",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 18
+},{
+  "_id": 274,
+  "ID_Fumiga": 274,
+  "Fecha": "2017-05-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 136
+},{
+  "_id": 275,
+  "ID_Fumiga": 275,
+  "Fecha": "2016-02-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 90
+},{
+  "_id": 276,
+  "ID_Fumiga": 276,
+  "Fecha": "2018-09-17",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 174
+},{
+  "_id": 277,
+  "ID_Fumiga": 277,
+  "Fecha": "2016-10-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 75
+},{
+  "_id": 278,
+  "ID_Fumiga": 278,
+  "Fecha": "2019-06-14",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 173
+},{
+  "_id": 279,
+  "ID_Fumiga": 279,
+  "Fecha": "2018-09-20",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 162
+},{
+  "_id": 280,
+  "ID_Fumiga": 280,
+  "Fecha": "2017-07-10",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 4
+},{
+  "_id": 281,
+  "ID_Fumiga": 281,
+  "Fecha": "2013-07-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 195
+},{
+  "_id": 282,
+  "ID_Fumiga": 282,
+  "Fecha": "2012-12-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 198
+},{
+  "_id": 283,
+  "ID_Fumiga": 283,
+  "Fecha": "2011-04-22",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 47
+},{
+  "_id": 284,
+  "ID_Fumiga": 284,
+  "Fecha": "2014-03-23",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 200
+},{
+  "_id": 285,
+  "ID_Fumiga": 285,
+  "Fecha": "2011-04-19",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 111
+},{
+  "_id": 286,
+  "ID_Fumiga": 286,
+  "Fecha": "2015-03-24",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 15
+},{
+  "_id": 287,
+  "ID_Fumiga": 287,
+  "Fecha": "2015-05-03",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 155
+},{
+  "_id": 288,
+  "ID_Fumiga": 288,
+  "Fecha": "2012-05-03",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 54
+},{
+  "_id": 289,
+  "ID_Fumiga": 289,
+  "Fecha": "2013-06-17",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 128
+},{
+  "_id": 290,
+  "ID_Fumiga": 290,
+  "Fecha": "2016-01-08",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 59
+},{
+  "_id": 291,
+  "ID_Fumiga": 291,
+  "Fecha": "2012-04-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 75
+},{
+  "_id": 292,
+  "ID_Fumiga": 292,
+  "Fecha": "2011-03-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 24
+},{
+  "_id": 293,
+  "ID_Fumiga": 293,
+  "Fecha": "2014-02-07",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 52
+},{
+  "_id": 294,
+  "ID_Fumiga": 294,
+  "Fecha": "2017-08-17",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 17
+},{
+  "_id": 295,
+  "ID_Fumiga": 295,
+  "Fecha": "2020-06-07",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 9
+},{
+  "_id": 296,
+  "ID_Fumiga": 296,
+  "Fecha": "2017-02-04",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 179
+},{
+  "_id": 297,
+  "ID_Fumiga": 297,
+  "Fecha": "2020-06-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 56
+},{
+  "_id": 298,
+  "ID_Fumiga": 298,
+  "Fecha": "2014-06-01",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 95
+},{
+  "_id": 299,
+  "ID_Fumiga": 299,
+  "Fecha": "2013-04-04",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 180
+},{
+  "_id": 300,
+  "ID_Fumiga": 300,
+  "Fecha": "2015-08-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 124
+},{
+  "_id": 301,
+  "ID_Fumiga": 301,
+  "Fecha": "2012-10-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 181
+},{
+  "_id": 302,
+  "ID_Fumiga": 302,
+  "Fecha": "2015-11-26",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 139
+},{
+  "_id": 303,
+  "ID_Fumiga": 303,
+  "Fecha": "2014-08-04",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 157
+},{
+  "_id": 304,
+  "ID_Fumiga": 304,
+  "Fecha": "2016-06-07",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 129
+},{
+  "_id": 305,
+  "ID_Fumiga": 305,
+  "Fecha": "2018-05-26",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 72
+},{
+  "_id": 306,
+  "ID_Fumiga": 306,
+  "Fecha": "2020-09-14",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 15
+},{
+  "_id": 307,
+  "ID_Fumiga": 307,
+  "Fecha": "2011-06-12",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 148
+},{
+  "_id": 308,
+  "ID_Fumiga": 308,
+  "Fecha": "2011-11-24",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 116
+},{
+  "_id": 309,
+  "ID_Fumiga": 309,
+  "Fecha": "2014-11-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 151
+},{
+  "_id": 310,
+  "ID_Fumiga": 310,
+  "Fecha": "2014-12-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 2
+},{
+  "_id": 311,
+  "ID_Fumiga": 311,
+  "Fecha": "2017-01-18",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 133
+},{
+  "_id": 312,
+  "ID_Fumiga": 312,
+  "Fecha": "2020-10-12",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 73
+},{
+  "_id": 313,
+  "ID_Fumiga": 313,
+  "Fecha": "2020-07-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 39
+},{
+  "_id": 314,
+  "ID_Fumiga": 314,
+  "Fecha": "2020-05-16",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 195
+},{
+  "_id": 315,
+  "ID_Fumiga": 315,
+  "Fecha": "2017-07-26",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 58
+},{
+  "_id": 316,
+  "ID_Fumiga": 316,
+  "Fecha": "2017-05-06",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 166
+},{
+  "_id": 317,
+  "ID_Fumiga": 317,
+  "Fecha": "2015-02-28",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 75
+},{
+  "_id": 318,
+  "ID_Fumiga": 318,
+  "Fecha": "2018-12-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 31
+},{
+  "_id": 319,
+  "ID_Fumiga": 319,
+  "Fecha": "2012-12-23",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 173
+},{
+  "_id": 320,
+  "ID_Fumiga": 320,
+  "Fecha": "2018-05-20",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 157
+},{
+  "_id": 321,
+  "ID_Fumiga": 321,
+  "Fecha": "2020-05-10",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 144
+},{
+  "_id": 322,
+  "ID_Fumiga": 322,
+  "Fecha": "2019-04-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 126
+},{
+  "_id": 323,
+  "ID_Fumiga": 323,
+  "Fecha": "2021-05-28",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 28
+},{
+  "_id": 324,
+  "ID_Fumiga": 324,
+  "Fecha": "2017-12-20",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 81
+},{
+  "_id": 325,
+  "ID_Fumiga": 325,
+  "Fecha": "2019-01-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 176
+},{
+  "_id": 326,
+  "ID_Fumiga": 326,
+  "Fecha": "2013-08-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 115
+},{
+  "_id": 327,
+  "ID_Fumiga": 327,
+  "Fecha": "2015-04-02",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 27
+},{
+  "_id": 328,
+  "ID_Fumiga": 328,
+  "Fecha": "2011-01-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 129
+},{
+  "_id": 329,
+  "ID_Fumiga": 329,
+  "Fecha": "2011-12-04",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 164
+},{
+  "_id": 330,
+  "ID_Fumiga": 330,
+  "Fecha": "2015-07-23",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 96
+},{
+  "_id": 331,
+  "ID_Fumiga": 331,
+  "Fecha": "2019-03-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 140
+},{
+  "_id": 332,
+  "ID_Fumiga": 332,
+  "Fecha": "2018-10-22",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 59
+},{
+  "_id": 333,
+  "ID_Fumiga": 333,
+  "Fecha": "2011-06-15",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 97
+},{
+  "_id": 334,
+  "ID_Fumiga": 334,
+  "Fecha": "2015-06-22",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 81
+},{
+  "_id": 335,
+  "ID_Fumiga": 335,
+  "Fecha": "2019-04-28",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 66
+},{
+  "_id": 336,
+  "ID_Fumiga": 336,
+  "Fecha": "2017-10-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 77
+},{
+  "_id": 337,
+  "ID_Fumiga": 337,
+  "Fecha": "2014-09-09",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 68
+},{
+  "_id": 338,
+  "ID_Fumiga": 338,
+  "Fecha": "2018-10-01",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 123
+},{
+  "_id": 339,
+  "ID_Fumiga": 339,
+  "Fecha": "2020-01-01",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 93
+},{
+  "_id": 340,
+  "ID_Fumiga": 340,
+  "Fecha": "2016-07-26",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 169
+},{
+  "_id": 341,
+  "ID_Fumiga": 341,
+  "Fecha": "2019-02-08",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 145
+},{
+  "_id": 342,
+  "ID_Fumiga": 342,
+  "Fecha": "2016-02-28",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 15
+},{
+  "_id": 343,
+  "ID_Fumiga": 343,
+  "Fecha": "2021-01-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 20
+},{
+  "_id": 344,
+  "ID_Fumiga": 344,
+  "Fecha": "2021-04-24",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 21
+},{
+  "_id": 345,
+  "ID_Fumiga": 345,
+  "Fecha": "2012-06-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 150
+},{
+  "_id": 346,
+  "ID_Fumiga": 346,
+  "Fecha": "2017-05-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 178
+},{
+  "_id": 347,
+  "ID_Fumiga": 347,
+  "Fecha": "2017-02-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 8
+},{
+  "_id": 348,
+  "ID_Fumiga": 348,
+  "Fecha": "2016-03-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 134
+},{
+  "_id": 349,
+  "ID_Fumiga": 349,
+  "Fecha": "2013-08-25",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 95
+},{
+  "_id": 350,
+  "ID_Fumiga": 350,
+  "Fecha": "2013-12-23",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 98
+},{
+  "_id": 351,
+  "ID_Fumiga": 351,
+  "Fecha": "2017-09-05",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 42
+},{
+  "_id": 352,
+  "ID_Fumiga": 352,
+  "Fecha": "2013-02-17",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 145
+},{
+  "_id": 353,
+  "ID_Fumiga": 353,
+  "Fecha": "2019-12-25",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 30
+},{
+  "_id": 354,
+  "ID_Fumiga": 354,
+  "Fecha": "2013-08-02",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 31
+},{
+  "_id": 355,
+  "ID_Fumiga": 355,
+  "Fecha": "2019-02-18",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 17
+},{
+  "_id": 356,
+  "ID_Fumiga": 356,
+  "Fecha": "2020-07-09",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 21
+},{
+  "_id": 357,
+  "ID_Fumiga": 357,
+  "Fecha": "2012-01-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 197
+},{
+  "_id": 358,
+  "ID_Fumiga": 358,
+  "Fecha": "2018-07-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 39
+},{
+  "_id": 359,
+  "ID_Fumiga": 359,
+  "Fecha": "2015-07-06",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 26
+},{
+  "_id": 360,
+  "ID_Fumiga": 360,
+  "Fecha": "2016-10-23",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 23
+},{
+  "_id": 361,
+  "ID_Fumiga": 361,
+  "Fecha": "2012-07-16",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 76
+},{
+  "_id": 362,
+  "ID_Fumiga": 362,
+  "Fecha": "2013-03-27",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 84
+},{
+  "_id": 363,
+  "ID_Fumiga": 363,
+  "Fecha": "2018-03-19",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 23
+},{
+  "_id": 364,
+  "ID_Fumiga": 364,
+  "Fecha": "2021-05-28",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 176
+},{
+  "_id": 365,
+  "ID_Fumiga": 365,
+  "Fecha": "2013-06-05",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 186
+},{
+  "_id": 366,
+  "ID_Fumiga": 366,
+  "Fecha": "2016-09-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 172
+},{
+  "_id": 367,
+  "ID_Fumiga": 367,
+  "Fecha": "2020-01-16",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 164
+},{
+  "_id": 368,
+  "ID_Fumiga": 368,
+  "Fecha": "2011-01-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 194
+},{
+  "_id": 369,
+  "ID_Fumiga": 369,
+  "Fecha": "2013-02-04",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 181
+},{
+  "_id": 370,
+  "ID_Fumiga": 370,
+  "Fecha": "2019-06-14",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 61
+},{
+  "_id": 371,
+  "ID_Fumiga": 371,
+  "Fecha": "2013-04-14",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 62
+},{
+  "_id": 372,
+  "ID_Fumiga": 372,
+  "Fecha": "2014-01-05",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 74
+},{
+  "_id": 373,
+  "ID_Fumiga": 373,
+  "Fecha": "2018-04-01",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 146
+},{
+  "_id": 374,
+  "ID_Fumiga": 374,
+  "Fecha": "2015-09-06",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 2
+},{
+  "_id": 375,
+  "ID_Fumiga": 375,
+  "Fecha": "2013-11-14",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 141
+},{
+  "_id": 376,
+  "ID_Fumiga": 376,
+  "Fecha": "2018-11-02",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 16
+},{
+  "_id": 377,
+  "ID_Fumiga": 377,
+  "Fecha": "2011-09-22",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 35
+},{
+  "_id": 378,
+  "ID_Fumiga": 378,
+  "Fecha": "2019-03-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 149
+},{
+  "_id": 379,
+  "ID_Fumiga": 379,
+  "Fecha": "2011-05-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 12
+},{
+  "_id": 380,
+  "ID_Fumiga": 380,
+  "Fecha": "2018-12-16",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 40
+},{
+  "_id": 381,
+  "ID_Fumiga": 381,
+  "Fecha": "2021-03-13",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 120
+},{
+  "_id": 382,
+  "ID_Fumiga": 382,
+  "Fecha": "2016-12-05",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 116
+},{
+  "_id": 383,
+  "ID_Fumiga": 383,
+  "Fecha": "2014-06-04",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 166
+},{
+  "_id": 384,
+  "ID_Fumiga": 384,
+  "Fecha": "2016-02-04",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 134
+},{
+  "_id": 385,
+  "ID_Fumiga": 385,
+  "Fecha": "2013-03-17",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 68
+},{
+  "_id": 386,
+  "ID_Fumiga": 386,
+  "Fecha": "2011-02-10",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 132
+},{
+  "_id": 387,
+  "ID_Fumiga": 387,
+  "Fecha": "2016-02-15",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 117
+},{
+  "_id": 388,
+  "ID_Fumiga": 388,
+  "Fecha": "2017-02-01",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 11
+},{
+  "_id": 389,
+  "ID_Fumiga": 389,
+  "Fecha": "2016-09-10",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 61
+},{
+  "_id": 390,
+  "ID_Fumiga": 390,
+  "Fecha": "2018-03-10",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 7
+},{
+  "_id": 391,
+  "ID_Fumiga": 391,
+  "Fecha": "2011-05-08",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 24
+},{
+  "_id": 392,
+  "ID_Fumiga": 392,
+  "Fecha": "2015-04-06",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 10
+},{
+  "_id": 393,
+  "ID_Fumiga": 393,
+  "Fecha": "2016-08-04",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 151
+},{
+  "_id": 394,
+  "ID_Fumiga": 394,
+  "Fecha": "2017-11-05",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 61
+},{
+  "_id": 395,
+  "ID_Fumiga": 395,
+  "Fecha": "2016-03-11",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 121
+},{
+  "_id": 396,
+  "ID_Fumiga": 396,
+  "Fecha": "2020-03-14",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 163
+},{
+  "_id": 397,
+  "ID_Fumiga": 397,
+  "Fecha": "2014-06-25",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 78
+},{
+  "_id": 398,
+  "ID_Fumiga": 398,
+  "Fecha": "2017-08-03",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 48
+},{
+  "_id": 399,
+  "ID_Fumiga": 399,
+  "Fecha": "2014-06-25",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 59
+},{
+  "_id": 400,
+  "ID_Fumiga": 400,
+  "Fecha": "2021-02-20",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 16
+},{
+  "_id": 401,
+  "ID_Fumiga": 401,
+  "Fecha": "2017-02-01",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 186
+},{
+  "_id": 402,
+  "ID_Fumiga": 402,
+  "Fecha": "2015-11-14",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 14
+},{
+  "_id": 403,
+  "ID_Fumiga": 403,
+  "Fecha": "2017-05-19",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 168
+},{
+  "_id": 404,
+  "ID_Fumiga": 404,
+  "Fecha": "2011-03-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 102
+},{
+  "_id": 405,
+  "ID_Fumiga": 405,
+  "Fecha": "2013-05-15",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 134
+},{
+  "_id": 406,
+  "ID_Fumiga": 406,
+  "Fecha": "2019-07-01",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 93
+},{
+  "_id": 407,
+  "ID_Fumiga": 407,
+  "Fecha": "2013-07-23",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 174
+},{
+  "_id": 408,
+  "ID_Fumiga": 408,
+  "Fecha": "2019-01-28",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 188
+},{
+  "_id": 409,
+  "ID_Fumiga": 409,
+  "Fecha": "2021-04-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 96
+},{
+  "_id": 410,
+  "ID_Fumiga": 410,
+  "Fecha": "2013-05-18",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 63
+},{
+  "_id": 411,
+  "ID_Fumiga": 411,
+  "Fecha": "2021-05-14",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 72
+},{
+  "_id": 412,
+  "ID_Fumiga": 412,
+  "Fecha": "2017-12-10",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 124
+},{
+  "_id": 413,
+  "ID_Fumiga": 413,
+  "Fecha": "2015-05-20",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 9
+},{
+  "_id": 414,
+  "ID_Fumiga": 414,
+  "Fecha": "2018-06-21",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 79
+},{
+  "_id": 415,
+  "ID_Fumiga": 415,
+  "Fecha": "2017-03-17",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 124
+},{
+  "_id": 416,
+  "ID_Fumiga": 416,
+  "Fecha": "2012-11-22",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 170
+},{
+  "_id": 417,
+  "ID_Fumiga": 417,
+  "Fecha": "2015-02-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 71
+},{
+  "_id": 418,
+  "ID_Fumiga": 418,
+  "Fecha": "2015-01-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 20
+},{
+  "_id": 419,
+  "ID_Fumiga": 419,
+  "Fecha": "2016-02-03",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 83
+},{
+  "_id": 420,
+  "ID_Fumiga": 420,
+  "Fecha": "2014-10-19",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 96
+},{
+  "_id": 421,
+  "ID_Fumiga": 421,
+  "Fecha": "2012-11-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 158
+},{
+  "_id": 422,
+  "ID_Fumiga": 422,
+  "Fecha": "2018-05-25",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 172
+},{
+  "_id": 423,
+  "ID_Fumiga": 423,
+  "Fecha": "2013-05-23",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 138
+},{
+  "_id": 424,
+  "ID_Fumiga": 424,
+  "Fecha": "2017-08-28",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 44
+},{
+  "_id": 425,
+  "ID_Fumiga": 425,
+  "Fecha": "2011-02-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 60
+},{
+  "_id": 426,
+  "ID_Fumiga": 426,
+  "Fecha": "2020-06-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 108
+},{
+  "_id": 427,
+  "ID_Fumiga": 427,
+  "Fecha": "2017-05-26",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 94
+},{
+  "_id": 428,
+  "ID_Fumiga": 428,
+  "Fecha": "2015-05-27",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 72
+},{
+  "_id": 429,
+  "ID_Fumiga": 429,
+  "Fecha": "2013-05-05",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 172
+},{
+  "_id": 430,
+  "ID_Fumiga": 430,
+  "Fecha": "2013-04-14",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 90
+},{
+  "_id": 431,
+  "ID_Fumiga": 431,
+  "Fecha": "2017-03-16",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 12
+},{
+  "_id": 432,
+  "ID_Fumiga": 432,
+  "Fecha": "2011-12-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 140
+},{
+  "_id": 433,
+  "ID_Fumiga": 433,
+  "Fecha": "2019-09-13",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 71
+},{
+  "_id": 434,
+  "ID_Fumiga": 434,
+  "Fecha": "2017-07-12",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 68
+},{
+  "_id": 435,
+  "ID_Fumiga": 435,
+  "Fecha": "2017-10-08",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 165
+},{
+  "_id": 436,
+  "ID_Fumiga": 436,
+  "Fecha": "2016-06-09",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 69
+},{
+  "_id": 437,
+  "ID_Fumiga": 437,
+  "Fecha": "2018-06-25",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 141
+},{
+  "_id": 438,
+  "ID_Fumiga": 438,
+  "Fecha": "2019-06-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 104
+},{
+  "_id": 439,
+  "ID_Fumiga": 439,
+  "Fecha": "2020-04-27",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 133
+},{
+  "_id": 440,
+  "ID_Fumiga": 440,
+  "Fecha": "2020-12-09",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 30
+},{
+  "_id": 441,
+  "ID_Fumiga": 441,
+  "Fecha": "2016-03-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 101
+},{
+  "_id": 442,
+  "ID_Fumiga": 442,
+  "Fecha": "2012-09-06",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 190
+},{
+  "_id": 443,
+  "ID_Fumiga": 443,
+  "Fecha": "2016-10-23",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 185
+},{
+  "_id": 444,
+  "ID_Fumiga": 444,
+  "Fecha": "2018-05-28",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 52
+},{
+  "_id": 445,
+  "ID_Fumiga": 445,
+  "Fecha": "2018-07-03",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 120
+},{
+  "_id": 446,
+  "ID_Fumiga": 446,
+  "Fecha": "2013-04-06",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 143
+},{
+  "_id": 447,
+  "ID_Fumiga": 447,
+  "Fecha": "2017-07-21",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 33
+},{
+  "_id": 448,
+  "ID_Fumiga": 448,
+  "Fecha": "2014-06-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 30
+},{
+  "_id": 449,
+  "ID_Fumiga": 449,
+  "Fecha": "2012-10-05",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 156
+},{
+  "_id": 450,
+  "ID_Fumiga": 450,
+  "Fecha": "2020-12-08",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 41
+},{
+  "_id": 451,
+  "ID_Fumiga": 451,
+  "Fecha": "2011-03-15",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 183
+},{
+  "_id": 452,
+  "ID_Fumiga": 452,
+  "Fecha": "2014-04-24",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 14
+},{
+  "_id": 453,
+  "ID_Fumiga": 453,
+  "Fecha": "2018-03-15",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 74
+},{
+  "_id": 454,
+  "ID_Fumiga": 454,
+  "Fecha": "2015-08-02",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 117
+},{
+  "_id": 455,
+  "ID_Fumiga": 455,
+  "Fecha": "2016-03-12",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 11,
+  "ID_Arbol": 136
+},{
+  "_id": 456,
+  "ID_Fumiga": 456,
+  "Fecha": "2021-06-09",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 68
+},{
+  "_id": 457,
+  "ID_Fumiga": 457,
+  "Fecha": "2016-07-16",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 163
+},{
+  "_id": 458,
+  "ID_Fumiga": 458,
+  "Fecha": "2011-10-26",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 125
+},{
+  "_id": 459,
+  "ID_Fumiga": 459,
+  "Fecha": "2020-11-18",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 31
+},{
+  "_id": 460,
+  "ID_Fumiga": 460,
+  "Fecha": "2021-01-10",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 108
+},{
+  "_id": 461,
+  "ID_Fumiga": 461,
+  "Fecha": "2011-10-18",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 138
+},{
+  "_id": 462,
+  "ID_Fumiga": 462,
+  "Fecha": "2020-09-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 197
+},{
+  "_id": 463,
+  "ID_Fumiga": 463,
+  "Fecha": "2012-09-03",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 177
+},{
+  "_id": 464,
+  "ID_Fumiga": 464,
+  "Fecha": "2014-06-19",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 131
+},{
+  "_id": 465,
+  "ID_Fumiga": 465,
+  "Fecha": "2019-06-07",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 129
+},{
+  "_id": 466,
+  "ID_Fumiga": 466,
+  "Fecha": "2020-05-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 192
+},{
+  "_id": 467,
+  "ID_Fumiga": 467,
+  "Fecha": "2015-09-20",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 183
+},{
+  "_id": 468,
+  "ID_Fumiga": 468,
+  "Fecha": "2014-11-10",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 14,
+  "ID_Arbol": 50
+},{
+  "_id": 469,
+  "ID_Fumiga": 469,
+  "Fecha": "2012-09-11",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 12
+},{
+  "_id": 470,
+  "ID_Fumiga": 470,
+  "Fecha": "2012-08-18",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 19
+},{
+  "_id": 471,
+  "ID_Fumiga": 471,
+  "Fecha": "2012-02-13",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 16,
+  "ID_Arbol": 100
+},{
+  "_id": 472,
+  "ID_Fumiga": 472,
+  "Fecha": "2014-04-28",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 65
+},{
+  "_id": 473,
+  "ID_Fumiga": 473,
+  "Fecha": "2017-09-14",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 9,
+  "ID_Arbol": 104
+},{
+  "_id": 474,
+  "ID_Fumiga": 474,
+  "Fecha": "2011-08-04",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 93
+},{
+  "_id": 475,
+  "ID_Fumiga": 475,
+  "Fecha": "2011-02-05",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 70
+},{
+  "_id": 476,
+  "ID_Fumiga": 476,
+  "Fecha": "2014-12-24",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 73
+},{
+  "_id": 477,
+  "ID_Fumiga": 477,
+  "Fecha": "2016-05-12",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 2
+},{
+  "_id": 478,
+  "ID_Fumiga": 478,
+  "Fecha": "2016-12-15",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 5,
+  "ID_Arbol": 132
+},{
+  "_id": 479,
+  "ID_Fumiga": 479,
+  "Fecha": "2017-02-27",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 8,
+  "ID_Arbol": 70
+},{
+  "_id": 480,
+  "ID_Fumiga": 480,
+  "Fecha": "2016-06-15",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 142
+},{
+  "_id": 481,
+  "ID_Fumiga": 481,
+  "Fecha": "2020-05-09",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 48
+},{
+  "_id": 482,
+  "ID_Fumiga": 482,
+  "Fecha": "2017-12-06",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 15,
+  "ID_Arbol": 92
+},{
+  "_id": 483,
+  "ID_Fumiga": 483,
+  "Fecha": "2016-09-28",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 179
+},{
+  "_id": 484,
+  "ID_Fumiga": 484,
+  "Fecha": "2015-11-20",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 18,
+  "ID_Arbol": 182
+},{
+  "_id": 485,
+  "ID_Fumiga": 485,
+  "Fecha": "2019-07-22",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 187
+},{
+  "_id": 486,
+  "ID_Fumiga": 486,
+  "Fecha": "2011-02-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 10,
+  "ID_Arbol": 10
+},{
+  "_id": 487,
+  "ID_Fumiga": 487,
+  "Fecha": "2011-01-10",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 7,
+  "ID_Arbol": 151
+},{
+  "_id": 488,
+  "ID_Fumiga": 488,
+  "Fecha": "2012-11-20",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 12,
+  "ID_Arbol": 164
+},{
+  "_id": 489,
+  "ID_Fumiga": 489,
+  "Fecha": "2012-03-27",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 1,
+  "ID_Arbol": 161
+},{
+  "_id": 490,
+  "ID_Fumiga": 490,
+  "Fecha": "2020-07-03",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 2,
+  "ID_Arbol": 44
+},{
+  "_id": 491,
+  "ID_Fumiga": 491,
+  "Fecha": "2021-03-22",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 17,
+  "ID_Arbol": 86
+},{
+  "_id": 492,
+  "ID_Fumiga": 492,
+  "Fecha": "2015-04-20",
+  "Mezcla": "Mezcla1",
+  "ID_Trabajador": 22,
+  "ID_Arbol": 90
+},{
+  "_id": 493,
+  "ID_Fumiga": 493,
+  "Fecha": "2018-02-02",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 20,
+  "ID_Arbol": 190
+},{
+  "_id": 494,
+  "ID_Fumiga": 494,
+  "Fecha": "2015-12-19",
+  "Mezcla": "Mezcla4",
+  "ID_Trabajador": 13,
+  "ID_Arbol": 47
+},{
+  "_id": 495,
+  "ID_Fumiga": 495,
+  "Fecha": "2011-07-11",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 3,
+  "ID_Arbol": 110
+},{
+  "_id": 496,
+  "ID_Fumiga": 496,
+  "Fecha": "2011-01-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 183
+},{
+  "_id": 497,
+  "ID_Fumiga": 497,
+  "Fecha": "2018-08-05",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 6,
+  "ID_Arbol": 22
+},{
+  "_id": 498,
+  "ID_Fumiga": 498,
+  "Fecha": "2012-05-28",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 21,
+  "ID_Arbol": 184
+},{
+  "_id": 499,
+  "ID_Fumiga": 499,
+  "Fecha": "2021-05-21",
+  "Mezcla": "Mezcla2",
+  "ID_Trabajador": 19,
+  "ID_Arbol": 42
+},{
+  "_id": 500,
+  "ID_Fumiga": 500,
+  "Fecha": "2019-03-23",
+  "Mezcla": "Mezcla3",
+  "ID_Trabajador": 4,
+  "ID_Arbol": 29
+}]

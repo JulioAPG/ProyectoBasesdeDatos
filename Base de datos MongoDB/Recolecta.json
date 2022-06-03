@@ -1,0 +1,3601 @@
+[{
+  "_id": 1,
+  "ID_Recolecta": 1,
+  "Fecha": "2019-12-28",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 32,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 229
+},{
+  "_id": 2,
+  "ID_Recolecta": 2,
+  "Fecha": "2020-03-04",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 193,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 291
+},{
+  "_id": 3,
+  "ID_Recolecta": 3,
+  "Fecha": "2017-02-01",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 138,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 56
+},{
+  "_id": 4,
+  "ID_Recolecta": 4,
+  "Fecha": "2018-05-19",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 10,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 278
+},{
+  "_id": 5,
+  "ID_Recolecta": 5,
+  "Fecha": "2020-07-18",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 59,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 196
+},{
+  "_id": 6,
+  "ID_Recolecta": 6,
+  "Fecha": "2021-03-19",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 143,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 60
+},{
+  "_id": 7,
+  "ID_Recolecta": 7,
+  "Fecha": "2018-02-12",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 75,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 74
+},{
+  "_id": 8,
+  "ID_Recolecta": 8,
+  "Fecha": "2019-12-25",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 140,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 49
+},{
+  "_id": 9,
+  "ID_Recolecta": 9,
+  "Fecha": "2018-06-04",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 176,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 129
+},{
+  "_id": 10,
+  "ID_Recolecta": 10,
+  "Fecha": "2017-04-10",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 102,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 242
+},{
+  "_id": 11,
+  "ID_Recolecta": 11,
+  "Fecha": "2021-01-17",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 132,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 30
+},{
+  "_id": 12,
+  "ID_Recolecta": 12,
+  "Fecha": "2019-04-09",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 156,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 205
+},{
+  "_id": 13,
+  "ID_Recolecta": 13,
+  "Fecha": "2017-07-03",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 22,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 29
+},{
+  "_id": 14,
+  "ID_Recolecta": 14,
+  "Fecha": "2017-09-25",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 71,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 223
+},{
+  "_id": 15,
+  "ID_Recolecta": 15,
+  "Fecha": "2018-09-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 24,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 294
+},{
+  "_id": 16,
+  "ID_Recolecta": 16,
+  "Fecha": "2019-06-04",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 200,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 60
+},{
+  "_id": 17,
+  "ID_Recolecta": 17,
+  "Fecha": "2021-01-06",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 195,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 156
+},{
+  "_id": 18,
+  "ID_Recolecta": 18,
+  "Fecha": "2018-02-27",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 170,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 99
+},{
+  "_id": 19,
+  "ID_Recolecta": 19,
+  "Fecha": "2020-10-15",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 66,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 113
+},{
+  "_id": 20,
+  "ID_Recolecta": 20,
+  "Fecha": "2019-03-16",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 124,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 233
+},{
+  "_id": 21,
+  "ID_Recolecta": 21,
+  "Fecha": "2021-06-25",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 58,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 118
+},{
+  "_id": 22,
+  "ID_Recolecta": 22,
+  "Fecha": "2019-12-15",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 94,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 271
+},{
+  "_id": 23,
+  "ID_Recolecta": 23,
+  "Fecha": "2019-08-28",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 153,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 291
+},{
+  "_id": 24,
+  "ID_Recolecta": 24,
+  "Fecha": "2021-01-18",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 183,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 68
+},{
+  "_id": 25,
+  "ID_Recolecta": 25,
+  "Fecha": "2018-10-07",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 153,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 75
+},{
+  "_id": 26,
+  "ID_Recolecta": 26,
+  "Fecha": "2017-11-22",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 82,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 186
+},{
+  "_id": 27,
+  "ID_Recolecta": 27,
+  "Fecha": "2018-06-03",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 138,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 205
+},{
+  "_id": 28,
+  "ID_Recolecta": 28,
+  "Fecha": "2018-06-20",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 155,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 5
+},{
+  "_id": 29,
+  "ID_Recolecta": 29,
+  "Fecha": "2020-12-17",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 84,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 137
+},{
+  "_id": 30,
+  "ID_Recolecta": 30,
+  "Fecha": "2017-12-08",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 56,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 280
+},{
+  "_id": 31,
+  "ID_Recolecta": 31,
+  "Fecha": "2018-09-07",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 154,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 153
+},{
+  "_id": 32,
+  "ID_Recolecta": 32,
+  "Fecha": "2017-08-06",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 115,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 174
+},{
+  "_id": 33,
+  "ID_Recolecta": 33,
+  "Fecha": "2021-03-03",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 31,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 174
+},{
+  "_id": 34,
+  "ID_Recolecta": 34,
+  "Fecha": "2019-04-12",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 92,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 83
+},{
+  "_id": 35,
+  "ID_Recolecta": 35,
+  "Fecha": "2018-04-10",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 157,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 80
+},{
+  "_id": 36,
+  "ID_Recolecta": 36,
+  "Fecha": "2021-05-11",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 156,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 200
+},{
+  "_id": 37,
+  "ID_Recolecta": 37,
+  "Fecha": "2019-11-08",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 141,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 299
+},{
+  "_id": 38,
+  "ID_Recolecta": 38,
+  "Fecha": "2020-01-09",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 176,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 285
+},{
+  "_id": 39,
+  "ID_Recolecta": 39,
+  "Fecha": "2019-06-12",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 50,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 133
+},{
+  "_id": 40,
+  "ID_Recolecta": 40,
+  "Fecha": "2021-06-04",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 48,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 141
+},{
+  "_id": 41,
+  "ID_Recolecta": 41,
+  "Fecha": "2020-10-24",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 32,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 233
+},{
+  "_id": 42,
+  "ID_Recolecta": 42,
+  "Fecha": "2017-02-11",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 183,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 72
+},{
+  "_id": 43,
+  "ID_Recolecta": 43,
+  "Fecha": "2018-04-26",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 115,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 216
+},{
+  "_id": 44,
+  "ID_Recolecta": 44,
+  "Fecha": "2019-09-24",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 54,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 128
+},{
+  "_id": 45,
+  "ID_Recolecta": 45,
+  "Fecha": "2021-05-18",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 161,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 163
+},{
+  "_id": 46,
+  "ID_Recolecta": 46,
+  "Fecha": "2017-02-06",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 193,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 226
+},{
+  "_id": 47,
+  "ID_Recolecta": 47,
+  "Fecha": "2021-04-01",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 73,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 61
+},{
+  "_id": 48,
+  "ID_Recolecta": 48,
+  "Fecha": "2020-02-07",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 171,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 198
+},{
+  "_id": 49,
+  "ID_Recolecta": 49,
+  "Fecha": "2019-01-28",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 72,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 109
+},{
+  "_id": 50,
+  "ID_Recolecta": 50,
+  "Fecha": "2017-07-11",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 78,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 164
+},{
+  "_id": 51,
+  "ID_Recolecta": 51,
+  "Fecha": "2021-01-17",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 187,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 156
+},{
+  "_id": 52,
+  "ID_Recolecta": 52,
+  "Fecha": "2017-04-20",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 156,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 17
+},{
+  "_id": 53,
+  "ID_Recolecta": 53,
+  "Fecha": "2021-04-08",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 176,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 124
+},{
+  "_id": 54,
+  "ID_Recolecta": 54,
+  "Fecha": "2017-01-09",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 139,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 154
+},{
+  "_id": 55,
+  "ID_Recolecta": 55,
+  "Fecha": "2021-05-23",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 174,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 196
+},{
+  "_id": 56,
+  "ID_Recolecta": 56,
+  "Fecha": "2017-01-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 71,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 271
+},{
+  "_id": 57,
+  "ID_Recolecta": 57,
+  "Fecha": "2019-10-05",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 22,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 35
+},{
+  "_id": 58,
+  "ID_Recolecta": 58,
+  "Fecha": "2017-07-09",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 160,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 217
+},{
+  "_id": 59,
+  "ID_Recolecta": 59,
+  "Fecha": "2020-07-03",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 182,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 135
+},{
+  "_id": 60,
+  "ID_Recolecta": 60,
+  "Fecha": "2020-09-13",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 190,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 148
+},{
+  "_id": 61,
+  "ID_Recolecta": 61,
+  "Fecha": "2020-04-18",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 191,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 274
+},{
+  "_id": 62,
+  "ID_Recolecta": 62,
+  "Fecha": "2017-06-23",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 105,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 46
+},{
+  "_id": 63,
+  "ID_Recolecta": 63,
+  "Fecha": "2017-01-06",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 65,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 280
+},{
+  "_id": 64,
+  "ID_Recolecta": 64,
+  "Fecha": "2017-11-21",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 86,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 65
+},{
+  "_id": 65,
+  "ID_Recolecta": 65,
+  "Fecha": "2018-02-01",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 51,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 99
+},{
+  "_id": 66,
+  "ID_Recolecta": 66,
+  "Fecha": "2021-05-27",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 78,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 209
+},{
+  "_id": 67,
+  "ID_Recolecta": 67,
+  "Fecha": "2017-11-11",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 197,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 130
+},{
+  "_id": 68,
+  "ID_Recolecta": 68,
+  "Fecha": "2021-01-22",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 101,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 64
+},{
+  "_id": 69,
+  "ID_Recolecta": 69,
+  "Fecha": "2021-03-18",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 21,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 201
+},{
+  "_id": 70,
+  "ID_Recolecta": 70,
+  "Fecha": "2017-05-02",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 46,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 285
+},{
+  "_id": 71,
+  "ID_Recolecta": 71,
+  "Fecha": "2021-03-04",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 102,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 66
+},{
+  "_id": 72,
+  "ID_Recolecta": 72,
+  "Fecha": "2019-08-15",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 86,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 241
+},{
+  "_id": 73,
+  "ID_Recolecta": 73,
+  "Fecha": "2017-02-26",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 73,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 217
+},{
+  "_id": 74,
+  "ID_Recolecta": 74,
+  "Fecha": "2020-11-28",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 47,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 287
+},{
+  "_id": 75,
+  "ID_Recolecta": 75,
+  "Fecha": "2019-10-15",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 123,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 250
+},{
+  "_id": 76,
+  "ID_Recolecta": 76,
+  "Fecha": "2017-01-02",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 70,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 259
+},{
+  "_id": 77,
+  "ID_Recolecta": 77,
+  "Fecha": "2018-09-16",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 82,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 5
+},{
+  "_id": 78,
+  "ID_Recolecta": 78,
+  "Fecha": "2018-07-20",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 123,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 53
+},{
+  "_id": 79,
+  "ID_Recolecta": 79,
+  "Fecha": "2020-04-11",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 103,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 4
+},{
+  "_id": 80,
+  "ID_Recolecta": 80,
+  "Fecha": "2020-05-05",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 153,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 265
+},{
+  "_id": 81,
+  "ID_Recolecta": 81,
+  "Fecha": "2018-10-22",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 175,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 106
+},{
+  "_id": 82,
+  "ID_Recolecta": 82,
+  "Fecha": "2017-02-11",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 61,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 98
+},{
+  "_id": 83,
+  "ID_Recolecta": 83,
+  "Fecha": "2017-08-19",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 12,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 11
+},{
+  "_id": 84,
+  "ID_Recolecta": 84,
+  "Fecha": "2021-01-22",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 63,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 217
+},{
+  "_id": 85,
+  "ID_Recolecta": 85,
+  "Fecha": "2018-10-08",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 93,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 43
+},{
+  "_id": 86,
+  "ID_Recolecta": 86,
+  "Fecha": "2017-11-18",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 162,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 120
+},{
+  "_id": 87,
+  "ID_Recolecta": 87,
+  "Fecha": "2018-08-14",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 155,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 251
+},{
+  "_id": 88,
+  "ID_Recolecta": 88,
+  "Fecha": "2017-10-22",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 33,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 235
+},{
+  "_id": 89,
+  "ID_Recolecta": 89,
+  "Fecha": "2020-11-22",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 142,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 241
+},{
+  "_id": 90,
+  "ID_Recolecta": 90,
+  "Fecha": "2018-10-03",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 191,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 129
+},{
+  "_id": 91,
+  "ID_Recolecta": 91,
+  "Fecha": "2017-01-17",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 93,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 167
+},{
+  "_id": 92,
+  "ID_Recolecta": 92,
+  "Fecha": "2020-08-06",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 123,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 122
+},{
+  "_id": 93,
+  "ID_Recolecta": 93,
+  "Fecha": "2017-02-08",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 149,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 191
+},{
+  "_id": 94,
+  "ID_Recolecta": 94,
+  "Fecha": "2019-04-23",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 130,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 10
+},{
+  "_id": 95,
+  "ID_Recolecta": 95,
+  "Fecha": "2020-08-16",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 181,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 91
+},{
+  "_id": 96,
+  "ID_Recolecta": 96,
+  "Fecha": "2020-12-16",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 15,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 264
+},{
+  "_id": 97,
+  "ID_Recolecta": 97,
+  "Fecha": "2020-10-05",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 128,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 8
+},{
+  "_id": 98,
+  "ID_Recolecta": 98,
+  "Fecha": "2020-08-04",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 162,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 209
+},{
+  "_id": 99,
+  "ID_Recolecta": 99,
+  "Fecha": "2018-08-10",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 149,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 161
+},{
+  "_id": 100,
+  "ID_Recolecta": 100,
+  "Fecha": "2018-01-03",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 129,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 32
+},{
+  "_id": 101,
+  "ID_Recolecta": 101,
+  "Fecha": "2018-04-24",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 138,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 250
+},{
+  "_id": 102,
+  "ID_Recolecta": 102,
+  "Fecha": "2020-02-06",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 129,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 60
+},{
+  "_id": 103,
+  "ID_Recolecta": 103,
+  "Fecha": "2017-10-23",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 60,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 143
+},{
+  "_id": 104,
+  "ID_Recolecta": 104,
+  "Fecha": "2017-09-20",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 74,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 231
+},{
+  "_id": 105,
+  "ID_Recolecta": 105,
+  "Fecha": "2018-06-16",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 62,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 42
+},{
+  "_id": 106,
+  "ID_Recolecta": 106,
+  "Fecha": "2018-01-22",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 36,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 85
+},{
+  "_id": 107,
+  "ID_Recolecta": 107,
+  "Fecha": "2020-09-12",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 27,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 46
+},{
+  "_id": 108,
+  "ID_Recolecta": 108,
+  "Fecha": "2018-11-04",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 32,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 226
+},{
+  "_id": 109,
+  "ID_Recolecta": 109,
+  "Fecha": "2020-09-02",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 190,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 5
+},{
+  "_id": 110,
+  "ID_Recolecta": 110,
+  "Fecha": "2019-04-25",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 198,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 18
+},{
+  "_id": 111,
+  "ID_Recolecta": 111,
+  "Fecha": "2020-08-07",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 40,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 154
+},{
+  "_id": 112,
+  "ID_Recolecta": 112,
+  "Fecha": "2020-09-28",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 109,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 256
+},{
+  "_id": 113,
+  "ID_Recolecta": 113,
+  "Fecha": "2018-03-17",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 109,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 22
+},{
+  "_id": 114,
+  "ID_Recolecta": 114,
+  "Fecha": "2018-11-16",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 9,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 149
+},{
+  "_id": 115,
+  "ID_Recolecta": 115,
+  "Fecha": "2017-02-23",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 31,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 34
+},{
+  "_id": 116,
+  "ID_Recolecta": 116,
+  "Fecha": "2017-02-28",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 117,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 31
+},{
+  "_id": 117,
+  "ID_Recolecta": 117,
+  "Fecha": "2020-11-08",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 107,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 155
+},{
+  "_id": 118,
+  "ID_Recolecta": 118,
+  "Fecha": "2020-03-27",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 40,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 282
+},{
+  "_id": 119,
+  "ID_Recolecta": 119,
+  "Fecha": "2017-05-22",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 171,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 76
+},{
+  "_id": 120,
+  "ID_Recolecta": 120,
+  "Fecha": "2017-01-01",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 137,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 168
+},{
+  "_id": 121,
+  "ID_Recolecta": 121,
+  "Fecha": "2018-01-26",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 113,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 202
+},{
+  "_id": 122,
+  "ID_Recolecta": 122,
+  "Fecha": "2018-03-12",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 129
+},{
+  "_id": 123,
+  "ID_Recolecta": 123,
+  "Fecha": "2021-02-10",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 194,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 114
+},{
+  "_id": 124,
+  "ID_Recolecta": 124,
+  "Fecha": "2019-04-06",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 156,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 107
+},{
+  "_id": 125,
+  "ID_Recolecta": 125,
+  "Fecha": "2017-05-02",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 51,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 272
+},{
+  "_id": 126,
+  "ID_Recolecta": 126,
+  "Fecha": "2017-11-17",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 62,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 74
+},{
+  "_id": 127,
+  "ID_Recolecta": 127,
+  "Fecha": "2020-11-08",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 47,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 275
+},{
+  "_id": 128,
+  "ID_Recolecta": 128,
+  "Fecha": "2020-07-04",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 67,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 10
+},{
+  "_id": 129,
+  "ID_Recolecta": 129,
+  "Fecha": "2017-08-09",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 127,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 40
+},{
+  "_id": 130,
+  "ID_Recolecta": 130,
+  "Fecha": "2019-06-11",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 154,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 75
+},{
+  "_id": 131,
+  "ID_Recolecta": 131,
+  "Fecha": "2020-03-02",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 43,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 197
+},{
+  "_id": 132,
+  "ID_Recolecta": 132,
+  "Fecha": "2018-03-28",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 57,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 192
+},{
+  "_id": 133,
+  "ID_Recolecta": 133,
+  "Fecha": "2017-09-13",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 81,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 84
+},{
+  "_id": 134,
+  "ID_Recolecta": 134,
+  "Fecha": "2019-04-06",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 142,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 194
+},{
+  "_id": 135,
+  "ID_Recolecta": 135,
+  "Fecha": "2019-11-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 152,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 286
+},{
+  "_id": 136,
+  "ID_Recolecta": 136,
+  "Fecha": "2017-02-19",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 27,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 293
+},{
+  "_id": 137,
+  "ID_Recolecta": 137,
+  "Fecha": "2019-01-26",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 160,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 101
+},{
+  "_id": 138,
+  "ID_Recolecta": 138,
+  "Fecha": "2020-03-04",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 191,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 123
+},{
+  "_id": 139,
+  "ID_Recolecta": 139,
+  "Fecha": "2018-06-18",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 36,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 137
+},{
+  "_id": 140,
+  "ID_Recolecta": 140,
+  "Fecha": "2017-06-25",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 69,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 241
+},{
+  "_id": 141,
+  "ID_Recolecta": 141,
+  "Fecha": "2019-10-06",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 132,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 262
+},{
+  "_id": 142,
+  "ID_Recolecta": 142,
+  "Fecha": "2018-06-13",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 188,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 282
+},{
+  "_id": 143,
+  "ID_Recolecta": 143,
+  "Fecha": "2019-06-14",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 98,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 107
+},{
+  "_id": 144,
+  "ID_Recolecta": 144,
+  "Fecha": "2019-07-14",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 131,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 223
+},{
+  "_id": 145,
+  "ID_Recolecta": 145,
+  "Fecha": "2020-11-20",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 119,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 51
+},{
+  "_id": 146,
+  "ID_Recolecta": 146,
+  "Fecha": "2019-08-16",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 177,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 243
+},{
+  "_id": 147,
+  "ID_Recolecta": 147,
+  "Fecha": "2018-04-10",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 59,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 141
+},{
+  "_id": 148,
+  "ID_Recolecta": 148,
+  "Fecha": "2020-01-21",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 142,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 11
+},{
+  "_id": 149,
+  "ID_Recolecta": 149,
+  "Fecha": "2017-05-15",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 43,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 261
+},{
+  "_id": 150,
+  "ID_Recolecta": 150,
+  "Fecha": "2020-12-25",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 68,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 236
+},{
+  "_id": 151,
+  "ID_Recolecta": 151,
+  "Fecha": "2019-01-28",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 220
+},{
+  "_id": 152,
+  "ID_Recolecta": 152,
+  "Fecha": "2018-11-15",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 6,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 268
+},{
+  "_id": 153,
+  "ID_Recolecta": 153,
+  "Fecha": "2020-06-19",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 116,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 1
+},{
+  "_id": 154,
+  "ID_Recolecta": 154,
+  "Fecha": "2021-02-10",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 85,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 265
+},{
+  "_id": 155,
+  "ID_Recolecta": 155,
+  "Fecha": "2018-06-26",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 7,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 66
+},{
+  "_id": 156,
+  "ID_Recolecta": 156,
+  "Fecha": "2018-10-10",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 29
+},{
+  "_id": 157,
+  "ID_Recolecta": 157,
+  "Fecha": "2020-05-04",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 50,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 70
+},{
+  "_id": 158,
+  "ID_Recolecta": 158,
+  "Fecha": "2019-12-12",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 174,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 167
+},{
+  "_id": 159,
+  "ID_Recolecta": 159,
+  "Fecha": "2020-11-05",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 7,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 97
+},{
+  "_id": 160,
+  "ID_Recolecta": 160,
+  "Fecha": "2019-09-20",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 23,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 81
+},{
+  "_id": 161,
+  "ID_Recolecta": 161,
+  "Fecha": "2017-03-08",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 171,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 58
+},{
+  "_id": 162,
+  "ID_Recolecta": 162,
+  "Fecha": "2020-02-23",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 125,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 266
+},{
+  "_id": 163,
+  "ID_Recolecta": 163,
+  "Fecha": "2018-12-02",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 43,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 110
+},{
+  "_id": 164,
+  "ID_Recolecta": 164,
+  "Fecha": "2019-04-13",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 61,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 289
+},{
+  "_id": 165,
+  "ID_Recolecta": 165,
+  "Fecha": "2020-03-03",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 135,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 30
+},{
+  "_id": 166,
+  "ID_Recolecta": 166,
+  "Fecha": "2017-09-09",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 35,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 105
+},{
+  "_id": 167,
+  "ID_Recolecta": 167,
+  "Fecha": "2021-05-09",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 64,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 218
+},{
+  "_id": 168,
+  "ID_Recolecta": 168,
+  "Fecha": "2017-11-13",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 175,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 227
+},{
+  "_id": 169,
+  "ID_Recolecta": 169,
+  "Fecha": "2020-02-03",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 120,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 238
+},{
+  "_id": 170,
+  "ID_Recolecta": 170,
+  "Fecha": "2019-12-04",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 65,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 227
+},{
+  "_id": 171,
+  "ID_Recolecta": 171,
+  "Fecha": "2017-09-06",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 85,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 209
+},{
+  "_id": 172,
+  "ID_Recolecta": 172,
+  "Fecha": "2021-01-22",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 178,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 113
+},{
+  "_id": 173,
+  "ID_Recolecta": 173,
+  "Fecha": "2018-03-23",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 8,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 178
+},{
+  "_id": 174,
+  "ID_Recolecta": 174,
+  "Fecha": "2017-06-20",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 53,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 106
+},{
+  "_id": 175,
+  "ID_Recolecta": 175,
+  "Fecha": "2020-04-21",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 70,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 247
+},{
+  "_id": 176,
+  "ID_Recolecta": 176,
+  "Fecha": "2018-11-05",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 186,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 32
+},{
+  "_id": 177,
+  "ID_Recolecta": 177,
+  "Fecha": "2019-04-16",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 163,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 174
+},{
+  "_id": 178,
+  "ID_Recolecta": 178,
+  "Fecha": "2019-06-24",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 102,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 195
+},{
+  "_id": 179,
+  "ID_Recolecta": 179,
+  "Fecha": "2020-08-03",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 113,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 95
+},{
+  "_id": 180,
+  "ID_Recolecta": 180,
+  "Fecha": "2018-04-25",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 134,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 138
+},{
+  "_id": 181,
+  "ID_Recolecta": 181,
+  "Fecha": "2019-02-03",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 188,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 46
+},{
+  "_id": 182,
+  "ID_Recolecta": 182,
+  "Fecha": "2021-04-16",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 171,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 201
+},{
+  "_id": 183,
+  "ID_Recolecta": 183,
+  "Fecha": "2019-01-07",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 151,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 287
+},{
+  "_id": 184,
+  "ID_Recolecta": 184,
+  "Fecha": "2020-10-05",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 124,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 159
+},{
+  "_id": 185,
+  "ID_Recolecta": 185,
+  "Fecha": "2019-04-02",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 27,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 18
+},{
+  "_id": 186,
+  "ID_Recolecta": 186,
+  "Fecha": "2018-05-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 136,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 164
+},{
+  "_id": 187,
+  "ID_Recolecta": 187,
+  "Fecha": "2020-06-18",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 171,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 163
+},{
+  "_id": 188,
+  "ID_Recolecta": 188,
+  "Fecha": "2020-02-13",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 200,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 9
+},{
+  "_id": 189,
+  "ID_Recolecta": 189,
+  "Fecha": "2021-03-24",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 19,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 125
+},{
+  "_id": 190,
+  "ID_Recolecta": 190,
+  "Fecha": "2019-08-14",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 9,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 100
+},{
+  "_id": 191,
+  "ID_Recolecta": 191,
+  "Fecha": "2020-02-22",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 52,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 162
+},{
+  "_id": 192,
+  "ID_Recolecta": 192,
+  "Fecha": "2021-06-17",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 1,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 191
+},{
+  "_id": 193,
+  "ID_Recolecta": 193,
+  "Fecha": "2017-05-10",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 152,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 230
+},{
+  "_id": 194,
+  "ID_Recolecta": 194,
+  "Fecha": "2021-06-26",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 57,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 105
+},{
+  "_id": 195,
+  "ID_Recolecta": 195,
+  "Fecha": "2021-06-08",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 140,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 151
+},{
+  "_id": 196,
+  "ID_Recolecta": 196,
+  "Fecha": "2017-10-23",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 29,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 52
+},{
+  "_id": 197,
+  "ID_Recolecta": 197,
+  "Fecha": "2018-01-25",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 180,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 25
+},{
+  "_id": 198,
+  "ID_Recolecta": 198,
+  "Fecha": "2018-03-14",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 96,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 296
+},{
+  "_id": 199,
+  "ID_Recolecta": 199,
+  "Fecha": "2019-08-18",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 169,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 284
+},{
+  "_id": 200,
+  "ID_Recolecta": 200,
+  "Fecha": "2017-08-07",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 89,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 255
+},{
+  "_id": 201,
+  "ID_Recolecta": 201,
+  "Fecha": "2021-04-16",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 200,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 49
+},{
+  "_id": 202,
+  "ID_Recolecta": 202,
+  "Fecha": "2020-09-10",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 76,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 288
+},{
+  "_id": 203,
+  "ID_Recolecta": 203,
+  "Fecha": "2017-09-07",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 90,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 72
+},{
+  "_id": 204,
+  "ID_Recolecta": 204,
+  "Fecha": "2018-05-08",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 98,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 154
+},{
+  "_id": 205,
+  "ID_Recolecta": 205,
+  "Fecha": "2017-07-04",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 155,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 149
+},{
+  "_id": 206,
+  "ID_Recolecta": 206,
+  "Fecha": "2018-09-09",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 136,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 282
+},{
+  "_id": 207,
+  "ID_Recolecta": 207,
+  "Fecha": "2017-06-22",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 115,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 19
+},{
+  "_id": 208,
+  "ID_Recolecta": 208,
+  "Fecha": "2020-11-05",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 158,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 259
+},{
+  "_id": 209,
+  "ID_Recolecta": 209,
+  "Fecha": "2021-05-07",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 177,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 74
+},{
+  "_id": 210,
+  "ID_Recolecta": 210,
+  "Fecha": "2018-03-28",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 49,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 283
+},{
+  "_id": 211,
+  "ID_Recolecta": 211,
+  "Fecha": "2020-08-25",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 127,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 294
+},{
+  "_id": 212,
+  "ID_Recolecta": 212,
+  "Fecha": "2019-07-22",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 14,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 23
+},{
+  "_id": 213,
+  "ID_Recolecta": 213,
+  "Fecha": "2018-02-19",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 199,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 214
+},{
+  "_id": 214,
+  "ID_Recolecta": 214,
+  "Fecha": "2019-05-16",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 94,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 222
+},{
+  "_id": 215,
+  "ID_Recolecta": 215,
+  "Fecha": "2020-11-22",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 179,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 69
+},{
+  "_id": 216,
+  "ID_Recolecta": 216,
+  "Fecha": "2019-07-03",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 4,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 4
+},{
+  "_id": 217,
+  "ID_Recolecta": 217,
+  "Fecha": "2021-01-24",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 131,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 273
+},{
+  "_id": 218,
+  "ID_Recolecta": 218,
+  "Fecha": "2019-09-25",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 122,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 295
+},{
+  "_id": 219,
+  "ID_Recolecta": 219,
+  "Fecha": "2020-01-16",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 19,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 127
+},{
+  "_id": 220,
+  "ID_Recolecta": 220,
+  "Fecha": "2018-10-24",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 173,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 129
+},{
+  "_id": 221,
+  "ID_Recolecta": 221,
+  "Fecha": "2017-03-25",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 186,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 77
+},{
+  "_id": 222,
+  "ID_Recolecta": 222,
+  "Fecha": "2020-06-21",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 99,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 106
+},{
+  "_id": 223,
+  "ID_Recolecta": 223,
+  "Fecha": "2020-01-27",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 92,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 23
+},{
+  "_id": 224,
+  "ID_Recolecta": 224,
+  "Fecha": "2019-11-21",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 12,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 66
+},{
+  "_id": 225,
+  "ID_Recolecta": 225,
+  "Fecha": "2017-01-20",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 47,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 185
+},{
+  "_id": 226,
+  "ID_Recolecta": 226,
+  "Fecha": "2017-04-27",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 26,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 37
+},{
+  "_id": 227,
+  "ID_Recolecta": 227,
+  "Fecha": "2018-10-18",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 4,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 171
+},{
+  "_id": 228,
+  "ID_Recolecta": 228,
+  "Fecha": "2020-06-20",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 182,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 165
+},{
+  "_id": 229,
+  "ID_Recolecta": 229,
+  "Fecha": "2018-10-09",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 196,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 251
+},{
+  "_id": 230,
+  "ID_Recolecta": 230,
+  "Fecha": "2021-04-07",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 17,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 68
+},{
+  "_id": 231,
+  "ID_Recolecta": 231,
+  "Fecha": "2018-04-15",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 178,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 151
+},{
+  "_id": 232,
+  "ID_Recolecta": 232,
+  "Fecha": "2019-10-06",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 102,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 26
+},{
+  "_id": 233,
+  "ID_Recolecta": 233,
+  "Fecha": "2018-08-26",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 31,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 125
+},{
+  "_id": 234,
+  "ID_Recolecta": 234,
+  "Fecha": "2019-08-05",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 107,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 154
+},{
+  "_id": 235,
+  "ID_Recolecta": 235,
+  "Fecha": "2017-05-26",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 7,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 237
+},{
+  "_id": 236,
+  "ID_Recolecta": 236,
+  "Fecha": "2019-10-16",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 118,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 31
+},{
+  "_id": 237,
+  "ID_Recolecta": 237,
+  "Fecha": "2020-02-06",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 148,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 233
+},{
+  "_id": 238,
+  "ID_Recolecta": 238,
+  "Fecha": "2020-05-12",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 85,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 247
+},{
+  "_id": 239,
+  "ID_Recolecta": 239,
+  "Fecha": "2020-11-18",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 86,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 211
+},{
+  "_id": 240,
+  "ID_Recolecta": 240,
+  "Fecha": "2017-02-21",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 18,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 188
+},{
+  "_id": 241,
+  "ID_Recolecta": 241,
+  "Fecha": "2020-09-22",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 161,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 95
+},{
+  "_id": 242,
+  "ID_Recolecta": 242,
+  "Fecha": "2017-05-06",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 73,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 13
+},{
+  "_id": 243,
+  "ID_Recolecta": 243,
+  "Fecha": "2021-04-16",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 75,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 156
+},{
+  "_id": 244,
+  "ID_Recolecta": 244,
+  "Fecha": "2017-10-19",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 16,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 220
+},{
+  "_id": 245,
+  "ID_Recolecta": 245,
+  "Fecha": "2019-07-14",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 200,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 212
+},{
+  "_id": 246,
+  "ID_Recolecta": 246,
+  "Fecha": "2019-08-16",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 111,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 40
+},{
+  "_id": 247,
+  "ID_Recolecta": 247,
+  "Fecha": "2019-10-16",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 84,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 267
+},{
+  "_id": 248,
+  "ID_Recolecta": 248,
+  "Fecha": "2018-10-15",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 118,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 203
+},{
+  "_id": 249,
+  "ID_Recolecta": 249,
+  "Fecha": "2017-11-24",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 100,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 46
+},{
+  "_id": 250,
+  "ID_Recolecta": 250,
+  "Fecha": "2020-07-14",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 181,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 260
+},{
+  "_id": 251,
+  "ID_Recolecta": 251,
+  "Fecha": "2017-07-08",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 87,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 117
+},{
+  "_id": 252,
+  "ID_Recolecta": 252,
+  "Fecha": "2020-07-01",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 13,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 246
+},{
+  "_id": 253,
+  "ID_Recolecta": 253,
+  "Fecha": "2020-10-02",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 64,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 182
+},{
+  "_id": 254,
+  "ID_Recolecta": 254,
+  "Fecha": "2017-11-21",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 93,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 250
+},{
+  "_id": 255,
+  "ID_Recolecta": 255,
+  "Fecha": "2021-03-15",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 187,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 121
+},{
+  "_id": 256,
+  "ID_Recolecta": 256,
+  "Fecha": "2017-10-10",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 43,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 180
+},{
+  "_id": 257,
+  "ID_Recolecta": 257,
+  "Fecha": "2018-05-07",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 126,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 18
+},{
+  "_id": 258,
+  "ID_Recolecta": 258,
+  "Fecha": "2019-02-26",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 62,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 259
+},{
+  "_id": 259,
+  "ID_Recolecta": 259,
+  "Fecha": "2018-06-02",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 191,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 291
+},{
+  "_id": 260,
+  "ID_Recolecta": 260,
+  "Fecha": "2019-09-02",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 1,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 220
+},{
+  "_id": 261,
+  "ID_Recolecta": 261,
+  "Fecha": "2018-04-06",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 27,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 73
+},{
+  "_id": 262,
+  "ID_Recolecta": 262,
+  "Fecha": "2018-04-22",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 116,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 81
+},{
+  "_id": 263,
+  "ID_Recolecta": 263,
+  "Fecha": "2020-09-16",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 116,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 245
+},{
+  "_id": 264,
+  "ID_Recolecta": 264,
+  "Fecha": "2019-02-08",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 58,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 16
+},{
+  "_id": 265,
+  "ID_Recolecta": 265,
+  "Fecha": "2020-05-08",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 89,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 58
+},{
+  "_id": 266,
+  "ID_Recolecta": 266,
+  "Fecha": "2018-08-12",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 196,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 300
+},{
+  "_id": 267,
+  "ID_Recolecta": 267,
+  "Fecha": "2019-05-25",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 190,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 212
+},{
+  "_id": 268,
+  "ID_Recolecta": 268,
+  "Fecha": "2020-09-06",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 144,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 79
+},{
+  "_id": 269,
+  "ID_Recolecta": 269,
+  "Fecha": "2018-09-27",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 165
+},{
+  "_id": 270,
+  "ID_Recolecta": 270,
+  "Fecha": "2020-02-19",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 80,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 63
+},{
+  "_id": 271,
+  "ID_Recolecta": 271,
+  "Fecha": "2020-05-27",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 58,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 52
+},{
+  "_id": 272,
+  "ID_Recolecta": 272,
+  "Fecha": "2017-06-25",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 118,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 185
+},{
+  "_id": 273,
+  "ID_Recolecta": 273,
+  "Fecha": "2020-12-09",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 89,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 151
+},{
+  "_id": 274,
+  "ID_Recolecta": 274,
+  "Fecha": "2020-10-28",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 32,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 169
+},{
+  "_id": 275,
+  "ID_Recolecta": 275,
+  "Fecha": "2018-11-08",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 26,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 118
+},{
+  "_id": 276,
+  "ID_Recolecta": 276,
+  "Fecha": "2019-10-05",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 184,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 181
+},{
+  "_id": 277,
+  "ID_Recolecta": 277,
+  "Fecha": "2017-10-07",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 60,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 15
+},{
+  "_id": 278,
+  "ID_Recolecta": 278,
+  "Fecha": "2021-03-02",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 18,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 262
+},{
+  "_id": 279,
+  "ID_Recolecta": 279,
+  "Fecha": "2019-06-23",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 99,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 269
+},{
+  "_id": 280,
+  "ID_Recolecta": 280,
+  "Fecha": "2017-05-23",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 157,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 83
+},{
+  "_id": 281,
+  "ID_Recolecta": 281,
+  "Fecha": "2018-07-06",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 60,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 120
+},{
+  "_id": 282,
+  "ID_Recolecta": 282,
+  "Fecha": "2020-05-10",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 141,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 25
+},{
+  "_id": 283,
+  "ID_Recolecta": 283,
+  "Fecha": "2018-11-07",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 2,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 152
+},{
+  "_id": 284,
+  "ID_Recolecta": 284,
+  "Fecha": "2018-10-06",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 7,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 172
+},{
+  "_id": 285,
+  "ID_Recolecta": 285,
+  "Fecha": "2018-10-24",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 101,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 27
+},{
+  "_id": 286,
+  "ID_Recolecta": 286,
+  "Fecha": "2021-02-21",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 93,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 29
+},{
+  "_id": 287,
+  "ID_Recolecta": 287,
+  "Fecha": "2017-06-27",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 22,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 53
+},{
+  "_id": 288,
+  "ID_Recolecta": 288,
+  "Fecha": "2021-01-24",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 43,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 135
+},{
+  "_id": 289,
+  "ID_Recolecta": 289,
+  "Fecha": "2018-01-12",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 192,
+  "ID_Trabajador": 10,
+  "ID_Produccion": 273
+},{
+  "_id": 290,
+  "ID_Recolecta": 290,
+  "Fecha": "2018-10-02",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 74,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 70
+},{
+  "_id": 291,
+  "ID_Recolecta": 291,
+  "Fecha": "2019-08-07",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 85,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 95
+},{
+  "_id": 292,
+  "ID_Recolecta": 292,
+  "Fecha": "2017-08-05",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 60
+},{
+  "_id": 293,
+  "ID_Recolecta": 293,
+  "Fecha": "2020-01-20",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 147,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 272
+},{
+  "_id": 294,
+  "ID_Recolecta": 294,
+  "Fecha": "2018-06-26",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 42,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 282
+},{
+  "_id": 295,
+  "ID_Recolecta": 295,
+  "Fecha": "2017-05-24",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 46,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 214
+},{
+  "_id": 296,
+  "ID_Recolecta": 296,
+  "Fecha": "2021-05-07",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 160,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 117
+},{
+  "_id": 297,
+  "ID_Recolecta": 297,
+  "Fecha": "2019-06-25",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 83,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 225
+},{
+  "_id": 298,
+  "ID_Recolecta": 298,
+  "Fecha": "2017-05-08",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 127,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 155
+},{
+  "_id": 299,
+  "ID_Recolecta": 299,
+  "Fecha": "2018-07-05",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 59,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 84
+},{
+  "_id": 300,
+  "ID_Recolecta": 300,
+  "Fecha": "2019-11-02",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 10,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 199
+},{
+  "_id": 301,
+  "ID_Recolecta": 301,
+  "Fecha": "2019-01-09",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 30,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 87
+},{
+  "_id": 302,
+  "ID_Recolecta": 302,
+  "Fecha": "2017-10-16",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 183,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 215
+},{
+  "_id": 303,
+  "ID_Recolecta": 303,
+  "Fecha": "2018-08-10",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 18,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 295
+},{
+  "_id": 304,
+  "ID_Recolecta": 304,
+  "Fecha": "2019-10-09",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 173,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 43
+},{
+  "_id": 305,
+  "ID_Recolecta": 305,
+  "Fecha": "2018-01-07",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 52,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 163
+},{
+  "_id": 306,
+  "ID_Recolecta": 306,
+  "Fecha": "2019-06-21",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 20,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 38
+},{
+  "_id": 307,
+  "ID_Recolecta": 307,
+  "Fecha": "2017-08-20",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 180,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 137
+},{
+  "_id": 308,
+  "ID_Recolecta": 308,
+  "Fecha": "2020-03-10",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 58,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 27
+},{
+  "_id": 309,
+  "ID_Recolecta": 309,
+  "Fecha": "2017-07-18",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 27,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 49
+},{
+  "_id": 310,
+  "ID_Recolecta": 310,
+  "Fecha": "2021-01-06",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 158,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 11
+},{
+  "_id": 311,
+  "ID_Recolecta": 311,
+  "Fecha": "2021-05-25",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 39,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 251
+},{
+  "_id": 312,
+  "ID_Recolecta": 312,
+  "Fecha": "2018-08-13",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 94,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 185
+},{
+  "_id": 313,
+  "ID_Recolecta": 313,
+  "Fecha": "2017-11-28",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 10,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 212
+},{
+  "_id": 314,
+  "ID_Recolecta": 314,
+  "Fecha": "2018-02-27",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 9,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 115
+},{
+  "_id": 315,
+  "ID_Recolecta": 315,
+  "Fecha": "2017-12-26",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 34,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 185
+},{
+  "_id": 316,
+  "ID_Recolecta": 316,
+  "Fecha": "2019-04-13",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 139,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 291
+},{
+  "_id": 317,
+  "ID_Recolecta": 317,
+  "Fecha": "2021-06-19",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 156,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 265
+},{
+  "_id": 318,
+  "ID_Recolecta": 318,
+  "Fecha": "2019-08-25",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 54,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 211
+},{
+  "_id": 319,
+  "ID_Recolecta": 319,
+  "Fecha": "2018-12-25",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 8,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 273
+},{
+  "_id": 320,
+  "ID_Recolecta": 320,
+  "Fecha": "2018-10-01",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 23,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 155
+},{
+  "_id": 321,
+  "ID_Recolecta": 321,
+  "Fecha": "2018-08-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 35,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 267
+},{
+  "_id": 322,
+  "ID_Recolecta": 322,
+  "Fecha": "2017-01-11",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 42,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 237
+},{
+  "_id": 323,
+  "ID_Recolecta": 323,
+  "Fecha": "2019-09-20",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 67,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 150
+},{
+  "_id": 324,
+  "ID_Recolecta": 324,
+  "Fecha": "2017-09-22",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 68,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 72
+},{
+  "_id": 325,
+  "ID_Recolecta": 325,
+  "Fecha": "2020-10-08",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 129,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 63
+},{
+  "_id": 326,
+  "ID_Recolecta": 326,
+  "Fecha": "2019-08-08",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 56,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 148
+},{
+  "_id": 327,
+  "ID_Recolecta": 327,
+  "Fecha": "2017-04-26",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 34,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 4
+},{
+  "_id": 328,
+  "ID_Recolecta": 328,
+  "Fecha": "2020-11-16",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 45,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 25
+},{
+  "_id": 329,
+  "ID_Recolecta": 329,
+  "Fecha": "2021-01-20",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 12,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 214
+},{
+  "_id": 330,
+  "ID_Recolecta": 330,
+  "Fecha": "2019-03-18",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 8
+},{
+  "_id": 331,
+  "ID_Recolecta": 331,
+  "Fecha": "2017-04-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 58,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 24
+},{
+  "_id": 332,
+  "ID_Recolecta": 332,
+  "Fecha": "2018-06-24",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 110,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 121
+},{
+  "_id": 333,
+  "ID_Recolecta": 333,
+  "Fecha": "2018-05-05",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 30,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 168
+},{
+  "_id": 334,
+  "ID_Recolecta": 334,
+  "Fecha": "2017-10-06",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 22,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 75
+},{
+  "_id": 335,
+  "ID_Recolecta": 335,
+  "Fecha": "2020-10-15",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 19,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 2
+},{
+  "_id": 336,
+  "ID_Recolecta": 336,
+  "Fecha": "2017-01-17",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 23,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 206
+},{
+  "_id": 337,
+  "ID_Recolecta": 337,
+  "Fecha": "2020-11-12",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 145,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 218
+},{
+  "_id": 338,
+  "ID_Recolecta": 338,
+  "Fecha": "2017-05-14",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 158,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 94
+},{
+  "_id": 339,
+  "ID_Recolecta": 339,
+  "Fecha": "2017-07-07",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 3,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 264
+},{
+  "_id": 340,
+  "ID_Recolecta": 340,
+  "Fecha": "2021-02-11",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 110,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 195
+},{
+  "_id": 341,
+  "ID_Recolecta": 341,
+  "Fecha": "2018-02-20",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 24,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 271
+},{
+  "_id": 342,
+  "ID_Recolecta": 342,
+  "Fecha": "2018-12-02",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 62,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 20
+},{
+  "_id": 343,
+  "ID_Recolecta": 343,
+  "Fecha": "2020-01-17",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 32,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 77
+},{
+  "_id": 344,
+  "ID_Recolecta": 344,
+  "Fecha": "2018-05-01",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 22,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 97
+},{
+  "_id": 345,
+  "ID_Recolecta": 345,
+  "Fecha": "2020-09-02",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 69,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 57
+},{
+  "_id": 346,
+  "ID_Recolecta": 346,
+  "Fecha": "2018-12-18",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 125,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 88
+},{
+  "_id": 347,
+  "ID_Recolecta": 347,
+  "Fecha": "2020-09-21",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 1,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 10
+},{
+  "_id": 348,
+  "ID_Recolecta": 348,
+  "Fecha": "2020-02-12",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 142,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 220
+},{
+  "_id": 349,
+  "ID_Recolecta": 349,
+  "Fecha": "2018-07-17",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 3,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 221
+},{
+  "_id": 350,
+  "ID_Recolecta": 350,
+  "Fecha": "2020-07-07",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 120,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 169
+},{
+  "_id": 351,
+  "ID_Recolecta": 351,
+  "Fecha": "2020-02-08",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 162,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 253
+},{
+  "_id": 352,
+  "ID_Recolecta": 352,
+  "Fecha": "2018-05-27",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 104,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 42
+},{
+  "_id": 353,
+  "ID_Recolecta": 353,
+  "Fecha": "2018-03-26",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 89,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 171
+},{
+  "_id": 354,
+  "ID_Recolecta": 354,
+  "Fecha": "2020-11-12",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 173,
+  "ID_Trabajador": 16,
+  "ID_Produccion": 237
+},{
+  "_id": 355,
+  "ID_Recolecta": 355,
+  "Fecha": "2018-02-15",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 195,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 176
+},{
+  "_id": 356,
+  "ID_Recolecta": 356,
+  "Fecha": "2018-01-16",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 3,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 274
+},{
+  "_id": 357,
+  "ID_Recolecta": 357,
+  "Fecha": "2019-02-08",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 185,
+  "ID_Trabajador": 11,
+  "ID_Produccion": 5
+},{
+  "_id": 358,
+  "ID_Recolecta": 358,
+  "Fecha": "2019-07-24",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 193,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 202
+},{
+  "_id": 359,
+  "ID_Recolecta": 359,
+  "Fecha": "2019-02-16",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 3,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 270
+},{
+  "_id": 360,
+  "ID_Recolecta": 360,
+  "Fecha": "2019-08-02",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 43,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 278
+},{
+  "_id": 361,
+  "ID_Recolecta": 361,
+  "Fecha": "2018-07-20",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 1,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 7
+},{
+  "_id": 362,
+  "ID_Recolecta": 362,
+  "Fecha": "2019-07-25",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 145,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 152
+},{
+  "_id": 363,
+  "ID_Recolecta": 363,
+  "Fecha": "2019-04-16",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 133,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 273
+},{
+  "_id": 364,
+  "ID_Recolecta": 364,
+  "Fecha": "2021-01-28",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 200,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 190
+},{
+  "_id": 365,
+  "ID_Recolecta": 365,
+  "Fecha": "2021-01-05",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 25,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 252
+},{
+  "_id": 366,
+  "ID_Recolecta": 366,
+  "Fecha": "2017-03-02",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 36,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 64
+},{
+  "_id": 367,
+  "ID_Recolecta": 367,
+  "Fecha": "2018-05-11",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 22,
+  "ID_Trabajador": 15,
+  "ID_Produccion": 170
+},{
+  "_id": 368,
+  "ID_Recolecta": 368,
+  "Fecha": "2018-05-11",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 131,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 151
+},{
+  "_id": 369,
+  "ID_Recolecta": 369,
+  "Fecha": "2017-04-24",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 176,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 38
+},{
+  "_id": 370,
+  "ID_Recolecta": 370,
+  "Fecha": "2021-05-16",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 197,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 141
+},{
+  "_id": 371,
+  "ID_Recolecta": 371,
+  "Fecha": "2021-05-22",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 135,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 264
+},{
+  "_id": 372,
+  "ID_Recolecta": 372,
+  "Fecha": "2018-08-16",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 45,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 211
+},{
+  "_id": 373,
+  "ID_Recolecta": 373,
+  "Fecha": "2021-01-15",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 56,
+  "ID_Trabajador": 2,
+  "ID_Produccion": 154
+},{
+  "_id": 374,
+  "ID_Recolecta": 374,
+  "Fecha": "2018-10-17",
+  "Calidad": "Baja",
+  "Peso": 40,
+  "ID_Arbol": 37,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 277
+},{
+  "_id": 375,
+  "ID_Recolecta": 375,
+  "Fecha": "2020-11-24",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 65,
+  "ID_Trabajador": 7,
+  "ID_Produccion": 233
+},{
+  "_id": 376,
+  "ID_Recolecta": 376,
+  "Fecha": "2019-05-26",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 44,
+  "ID_Trabajador": 9,
+  "ID_Produccion": 156
+},{
+  "_id": 377,
+  "ID_Recolecta": 377,
+  "Fecha": "2020-06-11",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 134,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 239
+},{
+  "_id": 378,
+  "ID_Recolecta": 378,
+  "Fecha": "2021-03-16",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 135,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 222
+},{
+  "_id": 379,
+  "ID_Recolecta": 379,
+  "Fecha": "2019-07-20",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 184,
+  "ID_Trabajador": 13,
+  "ID_Produccion": 206
+},{
+  "_id": 380,
+  "ID_Recolecta": 380,
+  "Fecha": "2017-07-05",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 68,
+  "ID_Trabajador": 12,
+  "ID_Produccion": 82
+},{
+  "_id": 381,
+  "ID_Recolecta": 381,
+  "Fecha": "2019-08-04",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 150,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 36
+},{
+  "_id": 382,
+  "ID_Recolecta": 382,
+  "Fecha": "2017-05-19",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 118,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 199
+},{
+  "_id": 383,
+  "ID_Recolecta": 383,
+  "Fecha": "2017-07-06",
+  "Calidad": "Baja",
+  "Peso": 30,
+  "ID_Arbol": 53,
+  "ID_Trabajador": 17,
+  "ID_Produccion": 72
+},{
+  "_id": 384,
+  "ID_Recolecta": 384,
+  "Fecha": "2017-01-20",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 54,
+  "ID_Trabajador": 22,
+  "ID_Produccion": 158
+},{
+  "_id": 385,
+  "ID_Recolecta": 385,
+  "Fecha": "2018-11-11",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 171,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 52
+},{
+  "_id": 386,
+  "ID_Recolecta": 386,
+  "Fecha": "2020-03-28",
+  "Calidad": "Alta",
+  "Peso": 50,
+  "ID_Arbol": 101,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 208
+},{
+  "_id": 387,
+  "ID_Recolecta": 387,
+  "Fecha": "2019-07-22",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 97,
+  "ID_Trabajador": 14,
+  "ID_Produccion": 150
+},{
+  "_id": 388,
+  "ID_Recolecta": 388,
+  "Fecha": "2018-05-03",
+  "Calidad": "Baja",
+  "Peso": 20,
+  "ID_Arbol": 99,
+  "ID_Trabajador": 3,
+  "ID_Produccion": 101
+},{
+  "_id": 389,
+  "ID_Recolecta": 389,
+  "Fecha": "2018-02-23",
+  "Calidad": "Alta",
+  "Peso": 20,
+  "ID_Arbol": 87,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 67
+},{
+  "_id": 390,
+  "ID_Recolecta": 390,
+  "Fecha": "2021-03-21",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 180,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 176
+},{
+  "_id": 391,
+  "ID_Recolecta": 391,
+  "Fecha": "2018-06-12",
+  "Calidad": "Baja",
+  "Peso": 50,
+  "ID_Arbol": 119,
+  "ID_Trabajador": 20,
+  "ID_Produccion": 243
+},{
+  "_id": 392,
+  "ID_Recolecta": 392,
+  "Fecha": "2020-01-28",
+  "Calidad": "Media",
+  "Peso": 40,
+  "ID_Arbol": 71,
+  "ID_Trabajador": 18,
+  "ID_Produccion": 72
+},{
+  "_id": 393,
+  "ID_Recolecta": 393,
+  "Fecha": "2018-08-03",
+  "Calidad": "Media",
+  "Peso": 50,
+  "ID_Arbol": 158,
+  "ID_Trabajador": 8,
+  "ID_Produccion": 294
+},{
+  "_id": 394,
+  "ID_Recolecta": 394,
+  "Fecha": "2017-02-21",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 129,
+  "ID_Trabajador": 1,
+  "ID_Produccion": 298
+},{
+  "_id": 395,
+  "ID_Recolecta": 395,
+  "Fecha": "2020-07-28",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 92,
+  "ID_Trabajador": 19,
+  "ID_Produccion": 203
+},{
+  "_id": 396,
+  "ID_Recolecta": 396,
+  "Fecha": "2019-02-03",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 188,
+  "ID_Trabajador": 21,
+  "ID_Produccion": 85
+},{
+  "_id": 397,
+  "ID_Recolecta": 397,
+  "Fecha": "2019-03-23",
+  "Calidad": "Alta",
+  "Peso": 30,
+  "ID_Arbol": 1,
+  "ID_Trabajador": 4,
+  "ID_Produccion": 131
+},{
+  "_id": 398,
+  "ID_Recolecta": 398,
+  "Fecha": "2021-02-27",
+  "Calidad": "Media",
+  "Peso": 20,
+  "ID_Arbol": 195,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 287
+},{
+  "_id": 399,
+  "ID_Recolecta": 399,
+  "Fecha": "2020-12-09",
+  "Calidad": "Alta",
+  "Peso": 40,
+  "ID_Arbol": 156,
+  "ID_Trabajador": 5,
+  "ID_Produccion": 276
+},{
+  "_id": 400,
+  "ID_Recolecta": 400,
+  "Fecha": "2018-08-10",
+  "Calidad": "Media",
+  "Peso": 30,
+  "ID_Arbol": 123,
+  "ID_Trabajador": 6,
+  "ID_Produccion": 116
+}]

@@ -1,0 +1,64 @@
+[{
+  "_id": 1,
+  "ID_Enfermedad": 1,
+  "Nombre": "Gomosis",
+  "Descripcion": "Afecta la integridad de los tallos",
+  "Tratamiento": null,
+  "Causa": null
+},{
+  "_id": 2,
+  "ID_Enfermedad": 2,
+  "Nombre": "Broca",
+  "Descripcion": "Dao de frutos",
+  "Tratamiento": null,
+  "Causa": null
+},{
+  "_id": 3,
+  "ID_Enfermedad": 3,
+  "Nombre": "Gomosis",
+  "Descripcion": "Tallos partidos",
+  "Tratamiento": "Fertilizantes",
+  "Causa": "Patogeno"
+},{
+  "_id": 4,
+  "ID_Enfermedad": 4,
+  "Nombre": "Defoliacion",
+  "Descripcion": "Costras",
+  "Tratamiento": "Fungicida",
+  "Causa": "Hongo"
+},{
+  "_id": 5,
+  "ID_Enfermedad": 5,
+  "Nombre": "Trips",
+  "Descripcion": "Inflorecencias",
+  "Tratamiento": "Mezcla",
+  "Causa": "Bacteria"
+},{
+  "_id": 6,
+  "ID_Enfermedad": 6,
+  "Nombre": "Aranha_Roja",
+  "Descripcion": "Savia",
+  "Tratamiento": "Agua_salada",
+  "Causa": "Bacteria"
+},{
+  "_id": 7,
+  "ID_Enfermedad": 7,
+  "Nombre": "Barrenador",
+  "Descripcion": "Raices",
+  "Tratamiento": "Antibiotico",
+  "Causa": "Insecto"
+},{
+  "_id": 8,
+  "ID_Enfermedad": 8,
+  "Nombre": "Agallador",
+  "Descripcion": "Frutos_negros",
+  "Tratamiento": "Calor",
+  "Causa": "Virus"
+},{
+  "_id": 9,
+  "ID_Enfermedad": 9,
+  "Nombre": "Escama",
+  "Descripcion": "Infertil",
+  "Tratamiento": "Hielo",
+  "Causa": "Parasito"
+}]
