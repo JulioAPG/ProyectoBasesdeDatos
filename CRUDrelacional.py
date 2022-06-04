@@ -1,10 +1,11 @@
 # Si no cuenta con alguna de estas librerías por favor instalar:
+from distutils.log import error
 import pymysql
 import json
 import stdiomask
 
 print("----------------------------------------------------------------")
-print("\nBienvenido al crud del sistema de cajeros \nPrimero necesitamos unos datos: \n")
+print("\nBienvenido al crud del sistema de cajeros, asegurese de haber importado la base de datos a MySQL antes de iniciar \nPrimero necesitamos unos datos: \n")
 LocalhhostUser = input(
     "Ingrese el usuario de la base de datos (si es 'root' escriba: si): ")
 LocalhhostPass = stdiomask.getpass(
@@ -167,22 +168,44 @@ def ConsignacionesCajerosFallando():
             n = 0
             x = 0
             montoTotal = 0
-            for transaccion in listaT:
-                n = n+1
-                transaccionJSON = json.loads(transaccion)
-                if transaccionJSON["tipoMovimiento"] == "consignacion":
-                    x = x+1
-                    monto = int(transaccionJSON["monto"])
-                    montoTotal = montoTotal + monto
-                    print("Transaccion", n, ":", "Valor:", transaccionJSON["monto"], " - ", "Tipo de cuenta:", transaccionJSON["tipoCuenta"], " - ",
-                          "Tipo de movimento:", transaccionJSON["tipoMovimiento"], " - ", "Fecha de la transaciión:", transaccionJSON["fechaMovimiento"])
-            print(bcolors.BLUE+f"Numero de consignaciones: {x}")
-            print(f"Recaudo total de consignaciones: {montoTotal}"+ bcolors.RESET)
+            try:
+                for transaccion in listaT:
+                    n = n+1
+                    transaccionJSON = json.loads(transaccion)
+                    if transaccionJSON["tipoMovimiento"] == "consignacion":
+                        x = x+1
+                        monto = int(transaccionJSON["monto"])
+                        montoTotal = montoTotal + monto
+                        print("Transaccion", n, ":", "Valor:", transaccionJSON["monto"], " - ", "Tipo de cuenta:", transaccionJSON["tipoCuenta"], " - ",
+                            "Tipo de movimento:", transaccionJSON["tipoMovimiento"], " - ", "Fecha de la transaciión:", transaccionJSON["fechaMovimiento"])
+                print(bcolors.BLUE+f"Numero de consignaciones: {x}")
+                print(f"Recaudo total de consignaciones: {montoTotal}"+ bcolors.RESET)
+            except:
+                print(bcolors.FAIL+f"No hay consignaciones en el cajero {id_cajero}"+bcolors.RESET)
+                pass
 
+def ModelosNoOperando():
+    # Listado de modelos (sin repeticiones y en orden ascendente) de los equipos que no están operando.
+    with conexion.cursor() as cursor:
+        consulta = "SELECT modeloCajero FROM cajeros WHERE estado='Fuera de Servicio' OR estado='Cerrado';"
+        cursor.execute(consulta)
+        cajeros = cursor.fetchall()
+        str_cajeros = json.dumps(cajeros)
+        objeto_cajeros = json.loads(str_cajeros)
+        modelos = []
+        for cajero in objeto_cajeros:
+            if cajero not in modelos:
+                modelos.append(cajero)
+        modelos.sort()
+        print(bcolors.BLUE+"Modelos de los cajeros que no están operando:")
+        for modelo in modelos:
+            print(modelo)
+        print(bcolors.RESET+"\n")
 
 
 def main():
-    opcion = int(input("¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Editar las transacciones de un cajero \n 6: Ver las transacciones de un cajero \n 7: El número y recaudo total de consignaciones en los cajeros que están fallando \n 8: Salir \n Su opción: "))
+    opcion = int(input(
+        "¿Que acción desea realizar?: \n 1: Crear cajero \n 2: Visualizar los cajeros \n 3: Eliminar un cajero \n 4: Modificar un cajero \n 5: Editar las transacciones de un cajero \n 6: Ver las transacciones de un cajero \n 7: El número y recaudo total de consignaciones en los cajeros que están fallando \n 8: Listado de modelos de los equipos que están fallando \n 9: Salir \n Su opción: "))
     if opcion == 1:
         print("\n----------------------------------------------------------------\n Creación de cajero: \n")
         id_equipo = input("ID del cajero: ")
@@ -262,19 +285,30 @@ def main():
             print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
             main()
         else:
-            listaT = LeerTransacciones(id_cajero)
-            for transaccion in listaT:
-                n = n+1
-                transaccionJSON = json.loads(transaccion)
-                print(f'Transacción {n}', str(transaccionJSON))
-            print("\n----------------------------------------------------------------\n")
+            try:
+                listaT = LeerTransacciones(id_cajero)
+                for transaccion in listaT:
+                    n = n+1
+                    transaccionJSON = json.loads(transaccion)
+                    print(f'Transacción {n}', str(transaccionJSON))
+                cajeroT = 1
+                print("\n----------------------------------------------------------------\n")
+            except:
+                listaT = []
+                cajeroT=0
+                print("\n El cajero no tiene transacciones en este momento \n")
+                pass
             n = 0
-            opcionT = int(input(
-                "¿Que acción desea realizar?:\n 1: Crear transacción \n 2: Actualizar transacción \n 3: Eliminar transacción \n 4: Cancelar \n Su opción: "))
+            if cajeroT == 0:
+                print("Solo puede crear transacciones")
+                opcionT = 1
+            else:
+                opcionT = int(input(
+                    "¿Que acción desea realizar?:\n 1: Crear transacción \n 2: Actualizar transacción \n 3: Eliminar transacción \n 4: Cancelar \n Su opción: "))
             if opcionT == 1:
                 monto = int(input("Digite el monto de la nueva transacción: "))
-                tipoCuenta = input(
-                    "Tipo de cuenta: \n 1: Cuenta corriente \n 2: Cuenta de ahorro \n 3: Cuenta virtual \n Su opción: ")
+                tipoCuenta = int(input(
+                    "Tipo de cuenta: \n 1: Cuenta corriente \n 2: Cuenta de ahorro \n 3: Cuenta virtual \n Su opción: "))
                 if tipoCuenta == 1:
                     tipoCuenta = "corriente"
                 elif tipoCuenta == 2:
@@ -284,8 +318,8 @@ def main():
                 else:
                     print("\n Opcion no válida")
                     main()
-                tipoMovimiento = input(
-                    "Digite el tipo de movimiento: \n 1: Retiro \n 2: Consignación \n 3: Transferencia \n Su opción: ")
+                tipoMovimiento = int(input(
+                    "Digite el tipo de movimiento: \n 1: Retiro \n 2: Consignación \n 3: Transferencia \n Su opción: "))
                 if tipoMovimiento == 1:
                     tipoMovimiento = "retiro"
                 elif tipoMovimiento == 2:
@@ -299,18 +333,21 @@ def main():
                     "Digite la fecha del nuevo movimiento en formato D-M-A: ")
                 CrearTransaccion(listaT, id_cajero, monto,
                                  tipoCuenta, tipoMovimiento, fechaMovimiento)
+                print(bcolors.OK+'\nTransacción creada con éxito'+bcolors.RESET)
+                print("Nueva lista de transacciones: ")
                 listaT = LeerTransacciones(id_cajero)
                 for transaccion in listaT:
                     n = n+1
                     transaccionJSON = json.loads(transaccion)
-                    print(f'Transacción {n}', str(transaccionJSON))
+                    print(f' Transacción {n}', str(transaccionJSON))
+                print("\n----------------------------------------------------------------\n")
 
             if opcionT == 2:
                 NumeroTransaccion = int(
                     input("Digite el número de la transacción a actualizar:"))
                 monto = int(input("Digite el monto: "))
-                tipoCuenta = input(
-                    "Tipo de cuenta: \n 1: Cuenta corriente \n 2: Cuenta de ahorro \n 3: Cuenta virtual \n Su opción: ")
+                tipoCuenta = int(input(
+                    "Tipo de cuenta: \n 1: Cuenta corriente \n 2: Cuenta de ahorro \n 3: Cuenta virtual \n Su opción: "))
                 if tipoCuenta == 1:
                     tipoCuenta = "corriente"
                 elif tipoCuenta == 2:
@@ -320,8 +357,8 @@ def main():
                 else:
                     print("\n Opcion no válida")
                     main()
-                tipoMovimiento = input(
-                    "Digite el tipo de movimiento: \n 1: Retiro \n 2: Consignación \n 3: Transferencia \n Su opción: ")
+                tipoMovimiento = int(input(
+                    "Digite el tipo de movimiento: \n 1: Retiro \n 2: Consignación \n 3: Transferencia \n Su opción: "))
                 if tipoMovimiento == 1:
                     tipoMovimiento = "retiro"
                 elif tipoMovimiento == 2:
@@ -344,12 +381,16 @@ def main():
                 NumeroTransaccion = int(
                     input("Digite el número de la transacción a eliminar:\n "))
                 EliminarTransaccion(listaT, NumeroTransaccion, id_cajero)
-                listaT = LeerTransacciones(id_cajero)
-                for transaccion in listaT:
-                    n = n+1
-                    transaccionJSON = json.loads(transaccion)
-                    print(f'Transacción {n}', str(transaccionJSON))
-
+                try:
+                    listaT = LeerTransacciones(id_cajero)
+                    for transaccion in listaT:
+                        n = n+1
+                        transaccionJSON = json.loads(transaccion)
+                        print(f'Transacción {n}', str(transaccionJSON))
+                except:
+                    print("\n El cajero ya no tiene transacciones \n")
+                    pass
+                main()
             if opcionT == 4:
                 print(
                     "\nAdiós\n----------------------------------------------------------------\n")
@@ -364,13 +405,18 @@ def main():
             print(bcolors.FAIL+"El cajero no existe\n---------------------------------------------------------------- \n"+bcolors.RESET)
             main()
         else:
-            listaT = LeerTransacciones(id_cajero)
-            for transaccion in listaT:
-                n = n+1
-                transaccionJSON = json.loads(transaccion)
-                print(f'Transacción {n}', str(transaccionJSON))
-            print("\n----------------------------------------------------------------\n")
-            main()
+            try:
+                listaT = LeerTransacciones(id_cajero)
+                for transaccion in listaT:
+                    n = n+1
+                    transaccionJSON = json.loads(transaccion)
+                    print(f'Transacción {n}', str(transaccionJSON))
+                print("\n----------------------------------------------------------------\n")
+                main()
+            except:
+                print(bcolors.FAIL+"\n El cajero no tiene transacciones \n"+bcolors.RESET)
+                print("----------------------------------------------------------------\n")
+                main()
 
     elif opcion == 7:
         print("----------------------------------------------------------------\n")
@@ -379,7 +425,15 @@ def main():
         main()
 
     elif opcion == 8:
+        print("----------------------------------------------------------------\n")
+        ModelosNoOperando()
+        print("----------------------------------------------------------------\n")
+        main()
+        
+
+    elif opcion == 9:
         print("\nAdiós\n----------------------------------------------------------------\n")
+        exit()
 
     else:
         print("\n----------------------------------------------------------------\n Opción inválida")
