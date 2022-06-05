@@ -106,16 +106,16 @@ def RecolectasTrabajador():
 def ArbolMasRecolectado():
     #¿A qué árbol se le han realizado más recolectas? 
     db=Conectar()
-    resultado=db.Recolecta.find()
-    arbol=0
-    cantidad=0
-    for recolecta in resultado: 
-        if recolecta["ID_Arbol"] > arbol:
-            arbol=recolecta["ID_Arbol"]
-            cantidad=1
-        elif recolecta["ID_Arbol"] == arbol:
-            cantidad+=1
-    print(f"El arbol con mas recolectas es el {arbol} con {cantidad} recolectas")
+    arboles=db.Arbol.find()
+    cantidadtotal=0
+    for arbol in arboles: 
+        cantidad=db.Recolecta.count_documents({"ID_Arbol": arbol["ID_Arbol"]})
+        if cantidad > cantidadtotal:
+            ArbolRes=arbol["ID_Arbol"]
+            cantidadtotal=cantidad
+        elif cantidadtotal == cantidad:
+            pass
+    print(f"El arbol con mas recolectas es el {ArbolRes} con {cantidadtotal} recolectas")
 
 
 
