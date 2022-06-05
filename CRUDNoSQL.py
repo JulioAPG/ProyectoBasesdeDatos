@@ -93,7 +93,7 @@ def RecolectasTrabajador():
     elif opcion == 2:
         db=Conectar()
         ID_Trabajador=0
-        for i in range(1,21):
+        for i in range(1,23):
             cantidad = 0
             ID_Trabajador=i
             resultado=db.Recolecta.find({"ID_Trabajador":ID_Trabajador})
