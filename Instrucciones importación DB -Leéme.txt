@@ -1,0 +1,25 @@
+En la carpeta "Bases de datos traducidas" se encuentran dos carpetas, cada una contiene los archivos para la importación de las bases de datos
+
+-No relacional
+Se utilizó MongoDB
+MongoDB solo permitía exportar colecciones individuales, más no la base de datos completa
+Para importar, cree una base de datos llamada [Aguacates] (corchetes incluidos, esto es debido a un problema con el método de traducción utilizado)
+Luego, cree las colecciones Arbol, Diagnostico, Enfermedad, Fumiga, Nutre, Produccion, Recolecta y Trabajador (Mayúsculas incluidas)
+A cada una importe la respectiva colección
+La conexión se realiza mediante la conexión predeterminada de MongoDB, es decir: mongodb://localhost:27017
+
+Método de traducción utilizado:
+Se utilizó el comando de sqlitemongo, el cuál recibe como parámetros la localización de la BD de sqlite, el uri de conexión de Mongo y el nombre de la base de datos traducida, fue en este paso, que por un error, se escrbió [Aguacates] como el nombre de la BD
+Los archivos package-lock.json y package.json son archivos utilizados por este traductor
+
+-Relacional
+Se utilizó MySQL
+Para la importación se presentan los archivos en 2 formatos, elija solo uno:
+-Formato .SQL, este se importa como una consulta en una base de datos vacía para generar las respectiva tabla de cajeros
+-Formato .JSON este se puede importar directamente a MySQL workbench en un esquema (base de datos) vacío, utilizando la opción "table import wizard", nota: asegúrese de que la columna transacciones sea de tipo JSON y no text
+
+-La conexión se realiza con su respectivo usuario y contraseña de MySQL, el programa pide estos datos como input
+-El programa también solicita el nombre de la base de datos creada, por defecto: transacciones
+
+Método de traducción utilizado:
+Se utilizó la importación de JSON en MySQL workbench explicada anteriormente
