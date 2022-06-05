@@ -150,7 +150,9 @@ def main():
         ID_Trabajador=input("Ingrese el id del trabajador: ")
         ID_Produccion=input("Ingrese el id de la produccion: ") 
         ID_Nueva=CrearRecolecta(Fecha,Calidad,Peso,ID_Arbol,ID_Trabajador,ID_Produccion)
-        print("El ID de la nueva recolecta es: ",ID_Nueva) 
+        db=Conectar()
+        ID_NuevoReal=db.Recolecta.find_one({'_id':ID_Nueva},{"_id": False})
+        print("La nueva recolecta es: ",ID_NuevoReal) 
         print("\n----------------------------------------------------------------\n")
         main()
 
