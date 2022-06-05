@@ -1,3 +1,4 @@
+#Autores Kevin Alejandro Betancurt, Juan Sebastián Vélez Hernández, Julio Peñaloza
 # Si no cuenta con alguna de estas librerías por favor instalar:
 from distutils.log import error
 import pymysql
