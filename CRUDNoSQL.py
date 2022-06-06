@@ -1,5 +1,4 @@
 #Autores Kevin Alejandro Betancurt, Juan Sebastián Vélez Hernández, Julio Peñaloza
-import pymongo
 from pymongo import MongoClient
 
 class bcolors:
@@ -123,7 +122,7 @@ def ArbolMasRecolectado():
 def main():
     opcion=int(input("Menú de opciones:\n 1: Listar recolectas \n 2: Crear recolecta \n 3: Modificar recolecta \n 4: Eliminar recolecta \n 5: Listar producciones \n 6: Ver el peso recolectado de un árbol \n 7: Ver las recolectas de los trabajadores \n 8: Ver el árbol con más recolectas \n 9: Salir \n \n Su opción: "))
     if opcion==1:
-        print("\n----------------------------------------------------------------\n Lista de recolectas: \n")
+        print("\n----------------------------------------------------------------\n Lista de recolectas: \n"+bcolors.BLUE)
         for recolecta in ListarRecolecta():
             print("=================")
             print("Id Recolecta: ", recolecta["ID_Recolecta"])
@@ -133,11 +132,11 @@ def main():
             print("Id Arbol: ", recolecta["ID_Arbol"])   
             print("Id Trabajador: ", recolecta["ID_Trabajador"]) 
             print("Id Produccion: ", recolecta["ID_Produccion"])   
-        print("\n----------------------------------------------------------------\n") 
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n") 
         main()
 
     elif opcion==2:
-        print("\n----------------------------------------------------------------\n Creación de recolecta: \n")
+        print("\n----------------------------------------------------------------\n Creación de recolecta: \n"+bcolors.BLUE)
         Fecha=input("Ingrese la fecha (Año - Mes - Dia): ")
         Calidad=int(input("Ingrese la calidad: \n 1: Alta \n 2: Media \n 3: Baja \n Su opción: "))
         if Calidad==1:
@@ -154,11 +153,11 @@ def main():
         db=Conectar()
         ID_NuevoReal=db.Recolecta.find_one({'_id':ID_Nueva},{"_id": False})
         print("La nueva recolecta es: ",ID_NuevoReal) 
-        print("\n----------------------------------------------------------------\n")
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n")
         main()
 
     elif opcion==3:
-        print("\n----------------------------------------------------------------\n Modificación de recolecta: \n")
+        print("\n----------------------------------------------------------------\n Modificación de recolecta: \n"+bcolors.BLUE)
         ID_Recolecta=int(input("Ingrese el ID de la recolecta a actualizar: "))
         Fecha=input("Ingrese la fecha: ")
         Calidad=int(input("Ingrese la calidad: \n 1: Alta \n 2: Media \n 3: Baja \n Su opción: "))
@@ -174,42 +173,42 @@ def main():
         ID_Produccion=input("Ingrese el id de la produccion: ")
         RecolectaActualizada=ModificarRecolecta(ID_Recolecta,Fecha,Calidad,Peso,ID_Arbol,ID_Trabajador,ID_Produccion)
         print("Se han actualizado ",RecolectaActualizada," Recolecta(s) con id",ID_Recolecta)
-        print("\n----------------------------------------------------------------\n") 
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n") 
         main()
 
     elif opcion==4:
-        print("\n----------------------------------------------------------------\n Eliminación de recolecta: \n")
+        print("\n----------------------------------------------------------------\n Eliminación de recolecta: \n"+bcolors.BLUE)
         ID_Recolecta=int(input("Ingrese el ID de la recolecta a eliminar "))     
         RecolectaEliminada=EliminarRecolecta(ID_Recolecta)   
         print("Se han eliminado ",RecolectaEliminada," Recolecta(s) con id ",ID_Recolecta)    
-        print("\n----------------------------------------------------------------\n") 
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n") 
         main()
 
     elif opcion==5:
-        print("\n----------------------------------------------------------------\n Lista de producciones: \n")
+        print("\n----------------------------------------------------------------\n Lista de producciones: \n"+bcolors.BLUE)
         for produccion in ListarProduccion():
             print("=================")
             print("Id produccion: ", produccion["ID_Produccion"])
             print("Fecha: ", produccion["Fecha"])
-        print("\n----------------------------------------------------------------\n")
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n")
         main()
 
     elif opcion==6:
-        print("\n----------------------------------------------------------------\n Peso recolectado: \n")
+        print("\n----------------------------------------------------------------\n Peso recolectado: \n"+bcolors.BLUE)
         RecolectaArbol()
-        print("\n----------------------------------------------------------------\n")
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n")
         main()
 
     elif opcion==7:
-        print("\n----------------------------------------------------------------\n Recolectas de los trabajadores: \n")
+        print("\n----------------------------------------------------------------\n Recolectas de los trabajadores: \n"+bcolors.BLUE)
         RecolectasTrabajador()
-        print("\n----------------------------------------------------------------\n")
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n")
         main()
 
     elif opcion == 8:
-        print("\n----------------------------------------------------------------\n Arbol mas recolectado: \n")
+        print("\n----------------------------------------------------------------\n Arbol mas recolectado: \n"+bcolors.BLUE)
         ArbolMasRecolectado()
-        print("\n----------------------------------------------------------------\n")
+        print(bcolors.RESET+"\n----------------------------------------------------------------\n")
         main()
 
     elif opcion == 9:
