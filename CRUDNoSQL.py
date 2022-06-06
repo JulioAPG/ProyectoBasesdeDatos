@@ -147,8 +147,8 @@ def main():
             Calidad="Baja"
         Peso=int(input("Ingrese el peso: "))   
         ID_Arbol=int(input("Ingrese el id del árbol: ") )     
-        ID_Trabajador=input("Ingrese el id del trabajador: ")
-        ID_Produccion=input("Ingrese el id de la produccion: ") 
+        ID_Trabajador=int(input("Ingrese el id del trabajador (menor o igual a 22): "))
+        ID_Produccion=int(input("Ingrese el id de la produccion: ") )
         ID_Nueva=CrearRecolecta(Fecha,Calidad,Peso,ID_Arbol,ID_Trabajador,ID_Produccion)
         db=Conectar()
         ID_NuevoReal=db.Recolecta.find_one({'_id':ID_Nueva},{"_id": False})
@@ -168,9 +168,9 @@ def main():
         elif Calidad==3:
             Calidad="Baja"
         Peso=input("Ingrese el peso: ")     
-        ID_Arbol=input("Ingrese el id del árbol: ")      
-        ID_Trabajador=input("Ingrese el id del trabajador: ")
-        ID_Produccion=input("Ingrese el id de la produccion: ")
+        ID_Arbol=int(input("Ingrese el id del árbol: "))      
+        ID_Trabajador=int(input("Ingrese el id del trabajador (menor o igual a 22): "))
+        ID_Produccion=int(input("Ingrese el id de la produccion: "))
         RecolectaActualizada=ModificarRecolecta(ID_Recolecta,Fecha,Calidad,Peso,ID_Arbol,ID_Trabajador,ID_Produccion)
         print("Se han actualizado ",RecolectaActualizada," Recolecta(s) con id",ID_Recolecta)
         print(bcolors.RESET+"\n----------------------------------------------------------------\n") 
